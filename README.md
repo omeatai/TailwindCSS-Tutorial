@@ -451,24 +451,7 @@ node -v
 </details>
 
 <details>
-  <summary>10. sample</summary>
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-</details>
-
-<details>
-  <summary>11. Text Color Opacity</summary>
+  <summary>10. Text Color Opacity</summary>
 
 ```html
 <p class="text-sky-400/100">The quick brown fox...</p>
@@ -485,7 +468,7 @@ node -v
 </details>
 
 <details>
-  <summary>12. Text Color change on Hover</summary>
+  <summary>11. Text Color change on Hover</summary>
 
 ```html
 <p class="text-slate-400 hover:text-sky-400">The quick brown fox...</p>
@@ -494,10 +477,30 @@ node -v
 </details>
 
 <details>
-  <summary>13. Text Color change on media queries</summary>
+  <summary>12. Text Color change on media queries</summary>
 
 ```html
 <p class="text-slate-400 lg:text-sky-400">The quick brown fox...</p>
+```
+
+</details>
+
+
+<details>
+  <summary>13. Text Color Custom Values</summary>
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'regal-blue': '#243c5a',
+      },
+    }
+  }
+}
 ```
 
 </details>
