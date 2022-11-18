@@ -208,7 +208,7 @@ live-server public
 </details>
 
 <details>
-  <summary>4. sample</summary>
+  <summary>4. Font Size</summary>
 
 ```bash
 node -v
