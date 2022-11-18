@@ -122,7 +122,7 @@ public/index.html:
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
+    <body class="text-red-700">
 
     <div>
         <div>
