@@ -468,52 +468,36 @@ node -v
 </details>
 
 <details>
-  <summary>11. sample</summary>
+  <summary>11. Text Color Opacity</summary>
 
 ```html
-node -v
+<p class="text-sky-400/100">The quick brown fox...</p>
+<p class="text-sky-400/75">The quick brown fox...</p>
+<p class="text-sky-400/50">The quick brown fox...</p>
+<p class="text-sky-400/25">The quick brown fox...</p>
+<p class="text-sky-400/0">The quick brown fox...</p>
 ```
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-</details>
-
-<details>
-  <summary>12. sample</summary>
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<p class="text-blue-600/[.06]">The quick brown fox...</p>
 ```
 
 </details>
 
 <details>
-  <summary>13. sample</summary>
+  <summary>12. Text Color change on Hover</summary>
 
 ```html
-node -v
+<p class="text-slate-400 hover:text-sky-400">The quick brown fox...</p>
 ```
 
-```html
-node -v
-```
+</details>
+
+<details>
+  <summary>13. Text Color change on media queries</summary>
 
 ```html
-node -v
+<p class="text-slate-400 lg:text-sky-400">The quick brown fox...</p>
 ```
 
 </details>
