@@ -10,7 +10,7 @@ Learn TailwindCSS by Ifeanyi Omeata
 +INTRODUCTION
 
 <details>
-  <summary>1. Install TailwindCSS</summary>
+  <summary>1. Tailwind via CLI </summary>
 
 Check Node Version:
 
@@ -24,15 +24,10 @@ Create package.json file:
 npm init -y
 ```
 
-Install TailwindCSS:
-
-```bash
-npm install tailwindcss
-```
+Install Tailwind CSS:
 
 ```bash
 npm install -D tailwindcss
-npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 ```
 
 Configure your template paths:
@@ -46,7 +41,8 @@ tailwind.config.js:
 ```javascript
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./public/*.{html,js}"],
+  //content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {},
   },
@@ -56,7 +52,7 @@ module.exports = {
 
 Add the Tailwind directives to your CSS:
 
-src/styles.css:
+src/input.css:
 
 ```css
 @tailwind base;
@@ -99,8 +95,8 @@ npm run build-css
 ```
 
 ```bash
-npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
 </details>
