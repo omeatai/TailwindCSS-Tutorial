@@ -259,12 +259,28 @@ text-9xl	            font-size: 8rem; /* 128px */
                         line-height: 1;
 ```
 
+```html
+<p class="text-sm ...">The quick brown fox ...</p>
+<p class="text-base ...">The quick brown fox ...</p>
+<p class="text-lg ...">The quick brown fox ...</p>
+<p class="text-xl ...">The quick brown fox ...</p>
+<p class="text-2xl ...">The quick brown fox ...</p>
+```
+
 </details>
 
 <details>
   <summary>5. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -273,7 +289,15 @@ node -v
 <details>
   <summary>6. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -282,7 +306,15 @@ node -v
 <details>
   <summary>7. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -291,7 +323,15 @@ node -v
 <details>
   <summary>8. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -300,7 +340,15 @@ node -v
 <details>
   <summary>9. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -309,7 +357,15 @@ node -v
 <details>
   <summary>10. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -318,7 +374,15 @@ node -v
 <details>
   <summary>11. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -327,7 +391,15 @@ node -v
 <details>
   <summary>12. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -336,7 +408,15 @@ node -v
 <details>
   <summary>13. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -345,7 +425,15 @@ node -v
 <details>
   <summary>14. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -354,7 +442,15 @@ node -v
 <details>
   <summary>15. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -363,7 +459,15 @@ node -v
 <details>
   <summary>16. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -372,7 +476,15 @@ node -v
 <details>
   <summary>17. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -381,7 +493,15 @@ node -v
 <details>
   <summary>18. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -390,7 +510,15 @@ node -v
 <details>
   <summary>19. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
@@ -399,7 +527,15 @@ node -v
 <details>
   <summary>20. sample</summary>
 
-```bash
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
