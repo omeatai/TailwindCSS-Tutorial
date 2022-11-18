@@ -216,6 +216,14 @@ live-server public
 <details>
   <summary>4. Font Size</summary>
 
+```html
+<p class="text-sm ...">The quick brown fox ...</p>
+<p class="text-base ...">The quick brown fox ...</p>
+<p class="text-lg ...">The quick brown fox ...</p>
+<p class="text-xl ...">The quick brown fox ...</p>
+<p class="text-2xl ...">The quick brown fox ...</p>
+```
+
 ```bash
 Class                   Properties
 
@@ -257,14 +265,6 @@ text-8xl	            font-size: 6rem; /* 96px */
 
 text-9xl	            font-size: 8rem; /* 128px */
                         line-height: 1;
-```
-
-```html
-<p class="text-sm ...">The quick brown fox ...</p>
-<p class="text-base ...">The quick brown fox ...</p>
-<p class="text-lg ...">The quick brown fox ...</p>
-<p class="text-xl ...">The quick brown fox ...</p>
-<p class="text-2xl ...">The quick brown fox ...</p>
 ```
 
 </details>
