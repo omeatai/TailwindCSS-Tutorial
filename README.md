@@ -116,24 +116,24 @@ public/index.html:
 
 ```html
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    </head>
-    <body class="text-red-700">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-600">
 
     <div>
         <div>
         <nav>
             <div>
-            <h1>
+            <h1 class="font-bold uppercase">
                 <a href="/">Food Ninja</a>
             </h1>
             </div>
             <ul>
-            <li>
+            <li class="text-gray-700 font-bold">
                 <a href="#">
                 <span>Home</span>
                 </a>
@@ -159,17 +159,17 @@ public/index.html:
         </div>
 
         <header>
-            <h2>Recipes</h2>
-            <h3>For Ninjas</h3>
+            <h2 class="text-gray-700 text-6xl font-semibold">Recipes</h2>
+            <h3 class="text-2xl font-semibold">For Ninjas</h3>
         </header>
 
         <div>
-            <h4>Latest Recipes</h4>
+            <h4 class="font-bold">Latest Recipes</h4>
 
             <div>
             <!-- cards go here -->
             <div>
-                <img src="img/stew.jpg" alt="stew">
+                <img src="img/stew.jpeg" alt="stew">
                 <div>
                 <span>5 Bean Chili Stew</span>
                 <span>Recipe by Mario</span>
@@ -177,7 +177,7 @@ public/index.html:
             </div>
             </div>
 
-            <h4>Most Popular</h4>
+            <h4 class="font-bold">Most Popular</h4>
 
             <div>
             <!-- cards go here -->
@@ -190,7 +190,7 @@ public/index.html:
         </main>
     </div>
 
-    </body>
+</body>
 </html>
 ```
 
