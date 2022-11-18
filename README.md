@@ -388,14 +388,60 @@ module.exports = {
 </details>
 
 <details>
-  <summary>9. sample</summary>
+  <summary>9. Text Color</summary>
 
 ```html
-node -v
+<p class="text-sky-400">The quick brown fox...</p>
 ```
 
+```bash
+text-sky-50
+text-sky-100
+text-sky-200
+text-sky-300
+text-sky-400
+text-sky-500
+text-sky-600
+text-sky-700
+text-sky-800
+text-sky-900
+```
+
+Color Choices:
+
+```bash
+text-slate-50
+text-gray-50
+text-zinc-50
+text-neutral-50
+text-stone-50
+text-red-50
+text-orange-50
+text-amber-50
+text-yellow-50
+text-lime-50
+text-green-50
+text-emerald-50
+text-teal-50
+text-cyan-50
+text-sky-50
+text-blue-50
+text-indigo-50
+text-violet-50
+text-purple-50
+text-fuchsia-50
+text-pink-50
+text-rose-50
+```
+
+Default Color settings:
+
 ```html
-node -v
+text-inherit
+text-current
+text-transparent
+text-black
+text-white
 ```
 
 ```html
