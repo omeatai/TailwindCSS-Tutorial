@@ -212,6 +212,7 @@ live-server public
 
 ```bash
 Class                   Properties
+
 text-xs	                font-size: 0.75rem; /* 12px */
                         line-height: 1rem; /* 16px */
 
