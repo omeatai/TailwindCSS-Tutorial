@@ -298,35 +298,87 @@ xl	                        1280px	                @media (min-width: 1280px) { .
 </details>
 
 <details>
-  <summary>7. sample</summary>
+  <summary>7. Font Size Real Values</summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<a class="text-[32px] lg:text-[8rem]" href="/">Food Ninja</a>
 ```
 
 </details>
 
 <details>
-  <summary>8. sample</summary>
+  <summary>8. Font Size Custom Values</summary>
 
-```html
-node -v
+tailwind.config.js:
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./public/*.{html,js}"],
+  theme: {
+    fontSize: {
+      'xs': '.75rem',
+      'sm': '.875rem',
+      'base': '1rem',
+      '2base': '2rem',
+      '3base': '3rem',
+      '4base': '4rem',
+      '5base': '5rem',
+      'lg': '1.125rem',
+      'xl': '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+      '6xl': '3.75rem',
+      '7xl': '4.5rem',
+      '8xl': '6rem',
+      '9xl': '8rem',
+    },
+    extend: {},
+  },
+  plugins: [],
+}
 ```
 
-```html
-node -v
+Providing a default line-height:
+
+The form => [fontSize, lineHeight]
+
+```js
+module.exports = {
+  theme: {
+    fontSize: {
+      sm: ['14px', '20px'],
+      base: ['16px', '24px'],
+      lg: ['20px', '28px'],
+      xl: ['24px', '32px'],
+    }
+  }
+}
 ```
 
-```html
-node -v
+Also provide default letter-spacing and font-weight values:
+
+The form => [fontSize, { lineHeight?, letterSpacing?, fontWeight? }]
+
+```js
+module.exports = {
+  theme: {
+    fontSize: {
+      '2xl': ['1.5rem', {
+        lineHeight: '2rem',
+        letterSpacing: '-0.01em',
+        fontWeight: '500',
+      }],
+      '3xl': ['1.875rem', {
+        lineHeight: '2.25rem',
+        letterSpacing: '-0.02em',
+        fontWeight: '700',
+      }],
+    }
+  }
+}
 ```
 
 </details>
