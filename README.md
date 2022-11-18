@@ -270,35 +270,29 @@ text-9xl	            font-size: 8rem; /* 128px */
 </details>
 
 <details>
-  <summary>5. sample</summary>
+  <summary>5. Font Size change on Hover </summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<a class="text-4xl hover:text-base" href="/">Food Ninja</a>
 ```
 
 </details>
 
 <details>
-  <summary>6. sample</summary>
+  <summary>6. Font Size change on media queries</summary>
 
 ```html
-node -v
+<a class="text-4xl lg:text-9xl" href="/">Food Ninja</a>
 ```
 
 ```html
-node -v
-```
 
-```html
-node -v
+Breakpoint prefix	        Minimum width	        CSS
+sm	                        640px	                @media (min-width: 640px) { ... }
+md	                        768px	                @media (min-width: 768px) { ... }
+lg	                        1024px	                @media (min-width: 1024px) { ... }
+xl	                        1280px	                @media (min-width: 1280px) { ... }
+2xl	                        1536px	                @media (min-width: 1536px) { ... }
 ```
 
 </details>
