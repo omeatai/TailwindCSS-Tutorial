@@ -35,6 +35,16 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 
+Add the Tailwind directives to your CSS:
+
+src/styles.css:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 </details>
 
 <details>
