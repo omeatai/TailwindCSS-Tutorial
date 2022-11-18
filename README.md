@@ -35,6 +35,21 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 
+Configure your template paths:
+
+tailwind.config.js:
+
+```javascript
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
 Add the Tailwind directives to your CSS:
 
 src/styles.css:
@@ -43,6 +58,44 @@ src/styles.css:
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
+
+Setup Package.json build:
+
+package.json:
+
+```json
+"scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+```
+
+```json
+{
+  "name": "ninjafood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
+```
+
+Start the Tailwind CLI build process:
+
+```bash
+npm run build-css
+```
+
+```bash
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
 </details>
