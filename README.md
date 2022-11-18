@@ -540,11 +540,11 @@ font-black	                    font-weight: 900;
 ```
 
 ```html
-node -v
-```
-
-```html
-node -v
+<p class="font-light ...">The quick brown fox ...</p>
+<p class="font-normal ...">The quick brown fox ...</p>
+<p class="font-medium ...">The quick brown fox ...</p>
+<p class="font-semibold ...">The quick brown fox ...</p>
+<p class="font-bold ...">The quick brown fox ...</p>
 ```
 
 </details>
