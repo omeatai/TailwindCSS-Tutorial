@@ -10,16 +10,24 @@ Learn TailwindCSS by Ifeanyi Omeata
 +INTRODUCTION
 
 <details>
-  <summary>1. sample</summary>
+  <summary>1. Install Node</summary>
+
+Check Node Version:
 
 ```bash
 node -v
 ```
 
+Create package.json file:
+
+```bash
+npm init -y
+```
+
 </details>
 
 <details>
-  <summary>2. sample</summary>
+  <summary>2. Install TailwindCSS</summary>
 
 ```bash
 node -v
