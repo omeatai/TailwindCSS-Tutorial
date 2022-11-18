@@ -211,7 +211,7 @@ live-server public
 
 </details>
 
-##### [TYPOGRAPHY](#)
+##### [A. TYPOGRAPHY](#)
 
 +FONT-SIZE
 
