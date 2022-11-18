@@ -211,7 +211,7 @@ live-server public
 
 </details>
 
-+TYPOGRAPHY
++FONT-SIZE
 
 <details>
   <summary>4. Font Size</summary>
@@ -386,6 +386,8 @@ module.exports = {
 ```
 
 </details>
+
++TEXT-COLOR
 
 <details>
   <summary>9. Text Color</summary>
