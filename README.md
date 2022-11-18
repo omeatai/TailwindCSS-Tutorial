@@ -527,6 +527,7 @@ module.exports = {
 
 ```html
 Class                           Properties
+
 font-thin	                    font-weight: 100;
 font-extralight	                font-weight: 200;
 font-light	                    font-weight: 300;
