@@ -489,6 +489,10 @@ node -v
 <details>
   <summary>13. Text Color Custom Values</summary>
 
+```html
+<h2 class="text-exclusive text-6xl font-semibold">Recipes</h2>
+```
+
 tailwind.config.js:
 
 ```js
@@ -507,10 +511,6 @@ module.exports = {
 
 <details>
   <summary>14. sample</summary>
-
-```html
-node -v
-```
 
 ```html
 node -v
