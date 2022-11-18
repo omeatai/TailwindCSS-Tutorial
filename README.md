@@ -300,7 +300,7 @@ xl	                        1280px	                @media (min-width: 1280px) { .
 </details>
 
 <details>
-  <summary>7. Font Size Real Values</summary>
+  <summary>7. Font Size Exact Values</summary>
 
 ```html
 <a class="text-[32px] lg:text-[8rem]" href="/">Food Ninja</a>
@@ -514,7 +514,7 @@ module.exports = {
 </details>
 
 <details>
-  <summary>14. Text Color Real Values</summary>
+  <summary>14. Text Color Exact Values</summary>
 
 ```html
 <h2 class="text-[#50d71e] text-6xl font-semibold">Recipes</h2>
@@ -584,7 +584,7 @@ module.exports = {
 </details>
 
 <details>
-  <summary>17. Font Weight Real Values</summary>
+  <summary>17. Font Weight Exact Values</summary>
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900]">Recipes</h2>
@@ -598,6 +598,223 @@ module.exports = {
   <summary>18. Text Transform</summary>
 
 ```html
+Class                       Properties
+uppercase	                text-transform: uppercase;
+lowercase	                text-transform: lowercase;
+capitalize	                text-transform: capitalize;
+normal-case	                text-transform: none;
+```
+
+```html
+<p class="normal-case ...">The quick brown fox ...</p>
+<p class="uppercase ...">The quick brown fox ...</p>
+<p class="lowercase ...">The quick brown fox ...</p>
+<p class="capitalize ...">The quick brown fox ...</p>
+```
+
+</details>
+
+<details>
+  <summary>19. Text Transform change on Hover </summary>
+
+```html
+<h2 class="text-[#30638E] text-6xl font-[900] hover:uppercase">Recipes</h2>
+```
+
+</details>
+
+<details>
+  <summary>20. Text Transform on media queries </summary>
+
+```html
+<h2 class="text-[#30638E] text-6xl font-[900] lg:uppercase">Recipes</h2>
+```
+
+</details>
+
++FONT-FAMILY
+
+<details>
+  <summary>21. Font-Family</summary>
+
+```html
+Class                       Properties
+
+font-sans	                font-family: ui-sans-serif, system-ui, -apple-system,
+                            BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-serif	                font-family: ui-serif, Georgia, Cambria, "Times New Roman",
+                            Times, serif;
+font-mono	                font-family: ui-monospace, SFMono-Regular, Menlo, Monaco,
+                            Consolas, "Liberation Mono", "Courier New", monospace;
+```
+
+```html
+<p class="font-sans ...">The quick brown fox ...</p>
+<p class="font-serif ...">The quick brown fox ...</p>
+<p class="font-mono ...">The quick brown fox ...</p>
+```
+
+</details>
+
+<details>
+  <summary>22. Font-Family Custom Values</summary>
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui', ...],
+      'serif': ['ui-serif', 'Georgia', ...],
+      'mono': ['ui-monospace', 'SFMono-Regular', ...],
+      'display': ['Oswald', ...],
+      'body': ['"Open Sans"', ...],
+    }
+  }
+}
+```
+
+```js
+{
+  // Array format:
+  'sans': ['Helvetica', 'Arial', 'sans-serif'],
+
+  // Comma-delimited format:
+  'sans': 'Helvetica, Arial, sans-serif',
+}
+```
+
+</details>
+
+<details>
+  <summary>23. Font-Family Exact Values </summary>
+
+```html
+<h2 class="text-[#30638E] text-6xl font-[900] lg:uppercase font-['Open_Sans']">Recipes</h2>
+```
+
+</details>
+
+<details>
+  <summary>24. Font-Family Base Values</summary>
+
+styles.css:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Proxima Nova, system-ui, sans-serif;
+  }
+}
+```
+
+</details>
+
++FONT-STYLE
+
+<details>
+  <summary>25. Font Style </summary>
+
+```html
+Class               Properties
+
+italic	            font-style: italic;
+not-italic	        font-style: normal;
+```
+
+```html
+<p class="italic ...">The quick brown fox ...</p>
+<p class="not-italic ...">The quick brown fox ...</p>
+```
+
+</details>
+
+<details>
+  <summary>26. Font Style change on hover</summary>
+
+```html
+<h2 class="text-[#30638E] text-6xl font-[900] hover:italic">Recipes</h2>
+```
+
+</details>
+
+<details>
+  <summary>27. Font Style change on media queries</summary>
+
+```html
+<h2 class="text-[#30638E] text-6xl font-[900] lg:italic">Recipes</h2>
+```
+
+</details>
+
+<details>
+  <summary>28. Letter Spacing</summary>
+
+```html
+Class                   Properties
+
+tracking-tighter	    letter-spacing: -0.05em;
+tracking-tight	        letter-spacing: -0.025em;
+tracking-normal	        letter-spacing: 0em;
+tracking-wide	        letter-spacing: 0.025em;
+tracking-wider	        letter-spacing: 0.05em;
+tracking-widest	        letter-spacing: 0.1em;
+```
+
+```html
+<p class="tracking-tight ...">The quick brown fox ...</p>
+<p class="tracking-normal ...">The quick brown fox ...</p>
+<p class="tracking-wide ...">The quick brown fox ...</p>
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>29. Letter Spacing Custom Values</summary>
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    letterSpacing: {
+      tightest: '-.075em',
+      tighter: '-.05em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.1em',
+      widest: '.25em',
+    }
+  }
+}
+```
+
+</details>
+
+<details>
+  <summary>30. Letter Spacing Exact Values</summary>
+
+```html
+<h2 class="text-[#30638E] text-6xl font-[900] tracking-[.25em]">Recipes</h2>
+```
+
+</details>
+
+<details>
+  <summary>31. sample</summary>
+
+```html
 node -v
 ```
 
@@ -612,7 +829,7 @@ node -v
 </details>
 
 <details>
-  <summary>19. sample</summary>
+  <summary>32. sample</summary>
 
 ```html
 node -v
@@ -629,7 +846,7 @@ node -v
 </details>
 
 <details>
-  <summary>20. sample</summary>
+  <summary>33. sample</summary>
 
 ```html
 node -v
@@ -646,7 +863,7 @@ node -v
 </details>
 
 <details>
-  <summary>21. sample</summary>
+  <summary>34. sample</summary>
 
 ```html
 node -v
@@ -663,7 +880,7 @@ node -v
 </details>
 
 <details>
-  <summary>22. sample</summary>
+  <summary>35. sample</summary>
 
 ```html
 node -v
@@ -680,7 +897,7 @@ node -v
 </details>
 
 <details>
-  <summary>23. sample</summary>
+  <summary>36. sample</summary>
 
 ```html
 node -v
@@ -697,7 +914,7 @@ node -v
 </details>
 
 <details>
-  <summary>24. sample</summary>
+  <summary>37. sample</summary>
 
 ```html
 node -v
@@ -714,7 +931,7 @@ node -v
 </details>
 
 <details>
-  <summary>25. sample</summary>
+  <summary>38. sample</summary>
 
 ```html
 node -v
@@ -731,7 +948,7 @@ node -v
 </details>
 
 <details>
-  <summary>26. sample</summary>
+  <summary>39. sample</summary>
 
 ```html
 node -v
@@ -748,58 +965,7 @@ node -v
 </details>
 
 <details>
-  <summary>27. sample</summary>
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-</details>
-
-<details>
-  <summary>28. sample</summary>
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-</details>
-
-<details>
-  <summary>29. sample</summary>
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-</details>
-
-<details>
-  <summary>30. sample</summary>
+  <summary>40. sample</summary>
 
 ```html
 node -v
