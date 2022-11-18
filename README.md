@@ -309,6 +309,10 @@ xl	                        1280px	                @media (min-width: 1280px) { .
 <details>
   <summary>8. Font Size Custom Values</summary>
 
+```html
+<a class="text-base lg:text-5base" href="/">Food Ninja</a>
+```
+
 tailwind.config.js:
 
 ```js
