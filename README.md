@@ -196,7 +196,7 @@ public/index.html:
   <summary>3. Install Live Server</summary>
 
 ```bash
-npm install live-server -g
+npm install -g live-server
 ```
 
 Run Live Server:
