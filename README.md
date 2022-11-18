@@ -590,8 +590,10 @@ module.exports = {
 
 </details>
 
++TEXT-TRANSFORM
+
 <details>
-  <summary>18. sample</summary>
+  <summary>18. Text Transform</summary>
 
 ```html
 node -v
