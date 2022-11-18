@@ -752,6 +752,8 @@ not-italic	        font-style: normal;
 
 </details>
 
++LETTER-SPACING
+
 <details>
   <summary>28. Letter Spacing</summary>
 
@@ -811,11 +813,28 @@ module.exports = {
 
 </details>
 
++LINE-HEIGHT
+
 <details>
-  <summary>31. sample</summary>
+  <summary>31. Line Height</summary>
 
 ```html
-node -v
+Class
+Properties
+leading-3	line-height: .75rem; /* 12px */
+leading-4	line-height: 1rem; /* 16px */
+leading-5	line-height: 1.25rem; /* 20px */
+leading-6	line-height: 1.5rem; /* 24px */
+leading-7	line-height: 1.75rem; /* 28px */
+leading-8	line-height: 2rem; /* 32px */
+leading-9	line-height: 2.25rem; /* 36px */
+leading-10	line-height: 2.5rem; /* 40px */
+leading-none	line-height: 1;
+leading-tight	line-height: 1.25;
+leading-snug	line-height: 1.375;
+leading-normal	line-height: 1.5;
+leading-relaxed	line-height: 1.625;
+leading-loose	line-height: 2;
 ```
 
 ```html
