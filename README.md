@@ -510,14 +510,10 @@ module.exports = {
 </details>
 
 <details>
-  <summary>14. sample</summary>
+  <summary>14. Text Color Real Values</summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
+<h2 class="text-[#50d71e] text-6xl font-semibold">Recipes</h2>
 ```
 
 </details>
