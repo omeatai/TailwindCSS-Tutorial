@@ -54,7 +54,7 @@ module.exports = {
 
 Add the Tailwind directives to your CSS:
 
-src/input.css:
+src/styles.css:
 
 ```css
 @tailwind base;
@@ -97,14 +97,14 @@ npm run build-css
 ```
 
 ```bash
-npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch
+npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
 Compile and minify your CSS for production:
 
 ```bash
-npx tailwindcss -i ./src/input.css -o ./public/styles.css --minify
+npx tailwindcss -i ./src/styles.css -o ./public/styles.css --minify
 ```
 
 </details>
