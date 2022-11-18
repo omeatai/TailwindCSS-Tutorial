@@ -207,6 +207,8 @@ live-server public
 
 </details>
 
++TYPOGRAPHY
+
 <details>
   <summary>4. Font Size</summary>
 
