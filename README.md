@@ -30,7 +30,7 @@ npm init -y
   <summary>2. Install TailwindCSS</summary>
 
 ```bash
-node -v
+npm install tailwindcss
 ```
 
 </details>
