@@ -550,35 +550,42 @@ font-black	                    font-weight: 900;
 </details>
 
 <details>
-  <summary>16. sample</summary>
+  <summary>16. Font Weight Custom Values</summary>
 
-```html
-node -v
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    fontWeight: {
+      hairline: 100,
+      'extra-light': 100,
+      thin: 200,
+      light: 300,
+      normal: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
+      extrabold: 800,
+      'extra-bold': 800,
+      black: 900,
+      'extreme': 900,
+    }
+  }
+}
 ```
 
 ```html
-node -v
-```
-
-```html
-node -v
+<h2 class="text-[#30638E] text-6xl font-extreme">Recipes</h2>
 ```
 
 </details>
 
 <details>
-  <summary>17. sample</summary>
+  <summary>17. Font Weight Real Values</summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<h2 class="text-[#30638E] text-6xl font-[900]">Recipes</h2>
 ```
 
 </details>
