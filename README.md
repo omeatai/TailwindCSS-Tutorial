@@ -32,10 +32,14 @@ npm install tailwindcss
 
 ```bash
 npm install -D tailwindcss
-npx tailwindcss init
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 ```
 
 Configure your template paths:
+
+```bash
+npx tailwindcss init
+```
 
 tailwind.config.js:
 
@@ -66,7 +70,7 @@ package.json:
 
 ```json
 "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch"
   },
 ```
 
@@ -77,7 +81,7 @@ package.json:
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch"
   },
   "keywords": [],
   "author": "",
@@ -96,15 +100,18 @@ npm run build-css
 
 ```bash
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch
 ```
 
 </details>
 
 <details>
-  <summary>2. Install TailwindCSS</summary>
+  <summary>2. HTML Template</summary>
 
-```bash
-node -v
+public/index.html:
+
+```html
+<!DOCTYPE html>
 ```
 
 ```bash
