@@ -30,11 +30,13 @@ Install Tailwind CSS:
 npm install -D tailwindcss
 ```
 
-Configure your template paths:
+Create a tailwind.config.js file:
 
 ```bash
 npx tailwindcss init
 ```
+
+Configure your template paths:
 
 tailwind.config.js:
 
@@ -97,6 +99,12 @@ npm run build-css
 ```bash
 npx tailwindcss -i ./src/input.css -o ./public/styles.css --watch
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
+
+Compile and minify your CSS for production:
+
+```bash
+npx tailwindcss -i ./src/input.css -o ./public/styles.css --minify
 ```
 
 </details>
