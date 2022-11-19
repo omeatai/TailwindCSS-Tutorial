@@ -986,18 +986,24 @@ module.exports = {
 </details>
 
 <details>
-  <summary>41. sample</summary>
+  <summary>41. List Style Position</summary>
 
 ```html
-node -v
+Class               Properties
+list-inside	        list-style-position: inside;
+list-outside	        list-style-position: outside;
 ```
 
 ```html
-node -v
-```
+<ul class="list-inside ...">
+  <li>5 cups chopped Porcini mushrooms</li>
+  <!-- ... -->
+</ul>
 
-```html
-node -v
+<ul class="list-outside ...">
+  <li>5 cups chopped Porcini mushrooms</li>
+  <!-- ... -->
+</ul>
 ```
 
 </details>
