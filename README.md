@@ -588,13 +588,13 @@ normal-case	                text-transform: none;
 <p class="capitalize ...">The quick brown fox ...</p>
 ```
 
-Text Transform change on Hover:
+On Hover:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] hover:uppercase">Recipes</h2>
 ```
 
-Text Transform on media queries:
+On Media queries:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] lg:uppercase">Recipes</h2>
@@ -622,7 +622,23 @@ font-mono	                font-family: ui-monospace, SFMono-Regular, Menlo, Mona
 <p class="font-mono ...">The quick brown fox ...</p>
 ```
 
-Font-Family Custom Values:
+On Hover:
+
+```html
+<p class="font-sans hover:font-serif">
+  <!-- ... -->
+</p>
+```
+
+On Media queries:
+
+```html
+<p class="font-sans md:font-serif">
+  <!-- ... -->
+</p>
+```
+
+Custom Values:
 
 tailwind.config.js:
 
@@ -650,13 +666,17 @@ module.exports = {
 }
 ```
 
-Font-Family Exact Values:
+Exact Values:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] lg:uppercase font-['Open_Sans']">Recipes</h2>
+
+<p class="font-['Open_Sans']">
+  <!-- ... -->
+</p>
 ```
 
-Font-Family Base Values:
+Base Values:
 
 styles.css:
 
