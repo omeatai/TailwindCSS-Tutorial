@@ -1015,7 +1015,7 @@ Changing the opacity:
 <a href="#" class="no-underline hover:underline hover:decoration-pink-700">This is a sentence.</a>
 ```
 
-Arbitrary values:
+Custom values:
 
 ```html
 <p class="decoration-[#50d71e]">
@@ -1023,7 +1023,10 @@ Arbitrary values:
 </p>
 ```
 
-Text Decoration Style:
+</details>
+
+<details>
+  <summary>16. Text Decoration Style</summary>
 
 ```html
 Class                   Properties
@@ -1043,10 +1046,30 @@ decoration-wavy	        text-decoration-style: wavy;
 <p class="underline decoration-wavy ...">The quick brown fox...</p>
 ```
 
-Text Decoration Thickness:
+On Hover:
+
+```html
+<p class="underline hover:decoration-dashed">
+  <!-- ... -->
+</p>
+```
+
+On Media Queries:
+
+```html
+<p class="underline md:decoration-dashed">
+  <!-- ... -->
+</p>
+```
+
+</details>
+
+<details>
+  <summary>17. Text Decoration Thickness</summary>
 
 ```html
 Class                   Properties
+
 decoration-auto	        text-decoration-thickness: auto;
 decoration-from-font	text-decoration-thickness: from-font;
 decoration-0	        text-decoration-thickness: 0px;
@@ -1062,7 +1085,40 @@ decoration-8	        text-decoration-thickness: 8px;
 <p class="underline decoration-4 ...">The quick brown fox...</p>
 ```
 
-Arbitrary values:
+On Hover:
+
+```html
+<p class="underline hover:decoration-4">
+  <!-- ... -->
+</p>
+```
+
+On Media queries:
+
+```html
+<p class="underline md:decoration-4">
+  <!-- ... -->
+</p>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+
+module.exports = {
+  theme: {
+    extend: {
+      textDecorationThickness: {
+        3: '3px',
+      }
+    }
+  }
+}
+```
+
+Exact values:
 
 ```html
 <p class="decoration-[3px]">
@@ -1073,7 +1129,7 @@ Arbitrary values:
 </details>
 
 <details>
-  <summary>51. sample</summary>
+  <summary>18. sample</summary>
 
 ```html
 node -v
