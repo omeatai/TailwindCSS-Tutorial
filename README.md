@@ -1098,7 +1098,7 @@ no-underline	    text-decoration-line: none;
 Class                       Properties
 decoration-inherit	        text-decoration-color: inherit;
 decoration-current	        text-decoration-color: currentColor;
-decoration-transparent	    text-decoration-color: transparent;
+decoration-transparent	        text-decoration-color: transparent;
 decoration-black	        text-decoration-color: #000;
 decoration-white	        text-decoration-color: #fff;
 decoration-slate-50	        text-decoration-color: #f8fafc;
@@ -1114,11 +1114,31 @@ decoration-slate-900	        text-decoration-color: #0f172a;
 ```
 
 ```html
-node -v
+<div>
+  <p>
+    I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at
+    <a class="underline decoration-sky-500">My Company, Inc</a>.
+    Outside of work, I like to <a class="underline decoration-pink-500">watch
+    pod-racing</a> and have <a class="underline decoration-indigo-500">light-saber</a> fights.
+  </p>
+</div>
+```
+
+Changing the opacity:
+
+```html
+<div>
+  <p>
+    I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at
+    <a class="underline decoration-sky-500/30">My Company, Inc</a>.
+    Outside of work, I like to <a class="underline decoration-pink-500/30">watch
+    pod-racing</a> and have <a class="underline decoration-indigo-500/30">light-saber</a> fights.
+  </p>
+</div>
 ```
 
 ```html
-node -v
+<strong class="underline decoration-sky-500/[.33]"></strong>
 ```
 
 </details>
