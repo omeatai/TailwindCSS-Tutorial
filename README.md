@@ -929,35 +929,25 @@ list-decimal	    list-style-type: decimal;
 </details>
 
 <details>
-  <summary>37. change on hover</summary>
+  <summary>37. List Style Type change on hover</summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<ol class="list-none hover:list-decimal list-inside">
+    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+</ol>
 ```
 
 </details>
 
 <details>
-  <summary>38. change on media queries</summary>
+  <summary>38. List Style Type change on media queries</summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<ol class="list-none lg:list-decimal list-inside">
+    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+</ol>
 ```
 
 </details>
