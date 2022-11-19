@@ -681,10 +681,8 @@ Font Style change on media queries:
 
 </details>
 
-+LETTER-SPACING
-
 <details>
-  <summary>28. Letter Spacing</summary>
+  <summary>10. Letter Spacing</summary>
 
 ```html
 Class                   Properties
@@ -707,10 +705,7 @@ tracking-widest	        letter-spacing: 0.1em;
 node -v
 ```
 
-</details>
-
-<details>
-  <summary>29. Letter Spacing Custom Values</summary>
+Letter Spacing Custom Values
 
 tailwind.config.js:
 
