@@ -580,10 +580,8 @@ Text Transform on media queries:
 
 </details>
 
-+FONT-FAMILY
-
 <details>
-  <summary>21. Font-Family</summary>
+  <summary>8. Font-Family</summary>
 
 ```html
 Class                       Properties
@@ -602,10 +600,7 @@ font-mono	                font-family: ui-monospace, SFMono-Regular, Menlo, Mona
 <p class="font-mono ...">The quick brown fox ...</p>
 ```
 
-</details>
-
-<details>
-  <summary>22. Font-Family Custom Values</summary>
+Font-Family Custom Values:
 
 tailwind.config.js:
 
@@ -633,19 +628,13 @@ module.exports = {
 }
 ```
 
-</details>
-
-<details>
-  <summary>23. Font-Family Exact Values </summary>
+Font-Family Exact Values:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] lg:uppercase font-['Open_Sans']">Recipes</h2>
 ```
 
-</details>
-
-<details>
-  <summary>24. Font-Family Base Values</summary>
+Font-Family Base Values:
 
 styles.css:
 
