@@ -729,7 +729,7 @@ module.exports = {
 </details>
 
 <details>
-  <summary>30. Letter Spacing Exact Values</summary>
+  <summary>11. Letter Spacing Exact Values</summary>
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] tracking-[.25em]">Recipes</h2>
