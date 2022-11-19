@@ -434,14 +434,7 @@ text-black
 text-white
 ```
 
-```html
-node -v
-```
-
-</details>
-
-<details>
-  <summary>10. Text Color Opacity</summary>
+Text Color Opacity:
 
 ```html
 <p class="text-sky-400/100">The quick brown fox...</p>
@@ -455,29 +448,19 @@ node -v
 <p class="text-blue-600/[.06]">The quick brown fox...</p>
 ```
 
-</details>
-
-<details>
-  <summary>11. Text Color change on Hover</summary>
+Text Color change on Hover:
 
 ```html
 <p class="text-slate-400 hover:text-sky-400">The quick brown fox...</p>
 ```
 
-</details>
-
-<details>
-  <summary>12. Text Color change on media queries</summary>
+Text Color change on media queries:
 
 ```html
 <p class="text-slate-400 lg:text-sky-400">The quick brown fox...</p>
 ```
 
-</details>
-
-
-<details>
-  <summary>13. Text Color Custom Values</summary>
+Text Color Custom Values:
 
 ```html
 <h2 class="text-exclusive text-6xl font-semibold">Recipes</h2>
@@ -497,10 +480,7 @@ module.exports = {
 }
 ```
 
-</details>
-
-<details>
-  <summary>14. Text Color Exact Values</summary>
+Text Color Exact Values:
 
 ```html
 <h2 class="text-[#50d71e] text-6xl font-semibold">Recipes</h2>
@@ -508,10 +488,8 @@ module.exports = {
 
 </details>
 
-+FONT-WEIGHT
-
 <details>
-  <summary>15. Font Weight</summary>
+  <summary>6. Font Weight</summary>
 
 ```html
 Class                           Properties
