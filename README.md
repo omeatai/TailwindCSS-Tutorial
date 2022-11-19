@@ -548,10 +548,8 @@ Font Weight Exact Values:
 
 </details>
 
-+TEXT-TRANSFORM
-
 <details>
-  <summary>18. Text Transform</summary>
+  <summary>7. Text Transform</summary>
 
 ```html
 Class                       Properties
@@ -568,19 +566,13 @@ normal-case	                text-transform: none;
 <p class="capitalize ...">The quick brown fox ...</p>
 ```
 
-</details>
-
-<details>
-  <summary>19. Text Transform change on Hover </summary>
+Text Transform change on Hover:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] hover:uppercase">Recipes</h2>
 ```
 
-</details>
-
-<details>
-  <summary>20. Text Transform on media queries </summary>
+Text Transform on media queries:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] lg:uppercase">Recipes</h2>
