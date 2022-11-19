@@ -709,16 +709,24 @@ not-italic	        font-style: normal;
 <p class="not-italic ...">The quick brown fox ...</p>
 ```
 
-Font Style change on hover:
+On Hover:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] hover:italic">Recipes</h2>
+
+<p class="italic hover:not-italic">
+  <!-- ... -->
+</p>
 ```
 
-Font Style change on media queries:
+On Media queries:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] lg:italic">Recipes</h2>
+
+<p class="italic md:not-italic">
+  <!-- ... -->
+</p>
 ```
 
 </details>
