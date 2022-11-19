@@ -652,10 +652,8 @@ styles.css:
 
 </details>
 
-+FONT-STYLE
-
 <details>
-  <summary>25. Font Style </summary>
+  <summary>9. Font Style </summary>
 
 ```html
 Class               Properties
@@ -669,19 +667,13 @@ not-italic	        font-style: normal;
 <p class="not-italic ...">The quick brown fox ...</p>
 ```
 
-</details>
-
-<details>
-  <summary>26. Font Style change on hover</summary>
+Font Style change on hover:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] hover:italic">Recipes</h2>
 ```
 
-</details>
-
-<details>
-  <summary>27. Font Style change on media queries</summary>
+Font Style change on media queries:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] lg:italic">Recipes</h2>
