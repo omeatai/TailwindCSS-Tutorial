@@ -1141,14 +1141,14 @@ Changing the opacity:
 <strong class="underline decoration-sky-500/[.33]"></strong>
 ```
 
+```html
+<a href="#" class="no-underline hover:underline hover:decoration-pink-700">This is a sentence.</a>
+```
+
 </details>
 
 <details>
   <summary>49. sample</summary>
-
-```html
-node -v
-```
 
 ```html
 node -v
