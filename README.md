@@ -267,16 +267,24 @@ text-9xl	            font-size: 8rem; /* 128px */
                         line-height: 1;
 ```
 
-Font Size change on Hover:
+On Hover:
 
 ```html
 <a class="text-4xl hover:text-base" href="/">Food Ninja</a>
+
+<p class="text-sm hover:text-base">
+  <!-- ... -->
+</p>
 ```
 
-Font Size change on media queries:
+On Media queries:
 
 ```html
 <a class="text-4xl lg:text-9xl" href="/">Food Ninja</a>
+
+<p class="text-sm md:text-base">
+  <!-- ... -->
+</p>
 ```
 
 ```html
@@ -289,11 +297,7 @@ xl	                        1280px	                @media (min-width: 1280px) { .
 2xl	                        1536px	                @media (min-width: 1536px) { ... }
 ```
 
-Font Size Exact Values:
 
-```html
-<a class="text-[32px] lg:text-[8rem]" href="/">Food Ninja</a>
-```
 
 Font Size Custom Values:
 
@@ -371,6 +375,16 @@ module.exports = {
     }
   }
 }
+```
+
+Exact Values:
+
+```html
+<a class="text-[32px] lg:text-[8rem]" href="/">Food Ninja</a>
+
+<p class="text-[14px]">
+  <!-- ... -->
+</p>
 ```
 
 </details>
