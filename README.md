@@ -906,11 +906,11 @@ module.exports = {
 Class           Properties
 list-none	    list-style-type: none;
 list-disc	    list-style-type: disc;
-list-decimal	list-style-type: decimal;
+list-decimal	    list-style-type: decimal;
 ```
 
 ```html
-<ul class="list-disc  list-inside">
+<ul class="list-disc list-inside">
   <li>Now this is a story all about how, my life got flipped-turned upside down</li>
   <!-- ... -->
 </ul>
@@ -929,7 +929,7 @@ list-decimal	list-style-type: decimal;
 </details>
 
 <details>
-  <summary>37. sample</summary>
+  <summary>37. change on hover</summary>
 
 ```html
 node -v
@@ -946,7 +946,7 @@ node -v
 </details>
 
 <details>
-  <summary>38. sample</summary>
+  <summary>38. change on media queries</summary>
 
 ```html
 node -v
@@ -981,6 +981,346 @@ node -v
 
 <details>
   <summary>40. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>41. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>42. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>43. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>44. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>45. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>46. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>47. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>48. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>49. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>50. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>51. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>52. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>53. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>54. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>55. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>56. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>57. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>58. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>59. sample</summary>
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+```html
+node -v
+```
+
+</details>
+
+<details>
+  <summary>60. sample</summary>
 
 ```html
 node -v
