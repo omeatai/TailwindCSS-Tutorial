@@ -730,10 +730,8 @@ Letter Spacing Exact Values:
 
 </details>
 
-+LINE-HEIGHT
-
 <details>
-  <summary>31. Line Height</summary>
+  <summary>11. Line Height</summary>
 
 ```html
 Class               Properties
@@ -765,28 +763,19 @@ leading-loose	    line-height: 2;
 <p class="leading-8 ...">So I started to walk into the water...</p>
 ```
 
-</details>
-
-<details>
-  <summary>32. Line Height change on hover</summary>
+Line Height change on hover:
 
 ```html
 <h3 class="text-2xl font-semibold leading-none hover:leading-loose">For Ninjas</h3>
 ```
 
-</details>
-
-<details>
-  <summary>33. Line Height change on media queries</summary>
+Line Height change on media queries:
 
 ```html
 <h3 class="text-2xl font-semibold leading-none lg:leading-loose">For Ninjas</h3>
 ```
 
-</details>
-
-<details>
-  <summary>34. Line Height Custom Values</summary>
+Line Height Custom Values:
 
 tailwind.config.js:
 
@@ -803,10 +792,7 @@ module.exports = {
 }
 ```
 
-</details>
-
-<details>
-  <summary>35. Line Height Exact Values</summary>
+Line Height Exact Values:
 
 ```html
 <h3 class="text-2xl font-semibold leading-[3rem]">For Ninjas</h3>
