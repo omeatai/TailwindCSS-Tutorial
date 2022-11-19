@@ -1159,28 +1159,51 @@ Arbitrary values:
   <summary>49. Text Decoration Style</summary>
 
 ```html
-node -v
+Class                   Properties
+
+decoration-solid	    text-decoration-style: solid;
+decoration-double	    text-decoration-style: double;
+decoration-dotted	    text-decoration-style: dotted;
+decoration-dashed	    text-decoration-style: dashed;
+decoration-wavy	        text-decoration-style: wavy;
 ```
 
 ```html
-node -v
+<p class="underline decoration-solid ...">The quick brown fox...</p>
+<p class="underline decoration-double ...">The quick brown fox...</p>
+<p class="underline decoration-dotted ...">The quick brown fox...</p>
+<p class="underline decoration-dashed ...">The quick brown fox...</p>
+<p class="underline decoration-wavy ...">The quick brown fox...</p>
 ```
 
 </details>
 
 <details>
-  <summary>50. sample</summary>
+  <summary>50. Text Decoration Thickness</summary>
 
 ```html
-node -v
+Class                   Properties
+decoration-auto	        text-decoration-thickness: auto;
+decoration-from-font	text-decoration-thickness: from-font;
+decoration-0	        text-decoration-thickness: 0px;
+decoration-1	        text-decoration-thickness: 1px;
+decoration-2	        text-decoration-thickness: 2px;
+decoration-4	        text-decoration-thickness: 4px;
+decoration-8	        text-decoration-thickness: 8px;
 ```
 
 ```html
-node -v
+<p class="underline decoration-1 ...">The quick brown fox...</p>
+<p class="underline decoration-2 ...">The quick brown fox...</p>
+<p class="underline decoration-4 ...">The quick brown fox...</p>
 ```
 
+Arbitrary values:
+
 ```html
-node -v
+<p class="decoration-[3px]">
+  <!-- ... -->
+</p>
 ```
 
 </details>
