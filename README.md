@@ -851,35 +851,19 @@ leading-loose	    line-height: 2;
 </details>
 
 <details>
-  <summary>32. sample</summary>
+  <summary>32. Line Height change on hover</summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<h3 class="text-2xl font-semibold leading-none hover:leading-loose">For Ninjas</h3>
 ```
 
 </details>
 
 <details>
-  <summary>33. sample</summary>
+  <summary>33. Line Height change on media queries</summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<h3 class="text-2xl font-semibold leading-none lg:leading-loose">For Ninjas</h3>
 ```
 
 </details>
