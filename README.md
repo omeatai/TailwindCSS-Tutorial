@@ -1092,10 +1092,25 @@ no-underline	    text-decoration-line: none;
 </details>
 
 <details>
-  <summary>48. sample</summary>
+  <summary>48. Text Decoration Color</summary>
 
 ```html
-node -v
+Class                       Properties
+decoration-inherit	        text-decoration-color: inherit;
+decoration-current	        text-decoration-color: currentColor;
+decoration-transparent	    text-decoration-color: transparent;
+decoration-black	        text-decoration-color: #000;
+decoration-white	        text-decoration-color: #fff;
+decoration-slate-50	        text-decoration-color: #f8fafc;
+decoration-slate-100	        text-decoration-color: #f1f5f9;
+decoration-slate-200	        text-decoration-color: #e2e8f0;
+decoration-slate-300	        text-decoration-color: #cbd5e1;
+decoration-slate-400	        text-decoration-color: #94a3b8;
+decoration-slate-500	        text-decoration-color: #64748b;
+decoration-slate-600	        text-decoration-color: #475569;
+decoration-slate-700	        text-decoration-color: #334155;
+decoration-slate-800	        text-decoration-color: #1e293b;
+decoration-slate-900	        text-decoration-color: #0f172a;
 ```
 
 ```html
