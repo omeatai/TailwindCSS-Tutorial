@@ -1145,10 +1145,18 @@ Changing the opacity:
 <a href="#" class="no-underline hover:underline hover:decoration-pink-700">This is a sentence.</a>
 ```
 
+Arbitrary values:
+
+```html
+<p class="decoration-[#50d71e]">
+  <!-- ... -->
+</p>
+```
+
 </details>
 
 <details>
-  <summary>49. sample</summary>
+  <summary>49. Text Decoration Style</summary>
 
 ```html
 node -v
