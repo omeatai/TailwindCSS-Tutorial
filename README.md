@@ -213,8 +213,6 @@ live-server public
 
 ##### [A. TYPOGRAPHY](#)
 
-+FONT-SIZE
-
 <details>
   <summary>4. Font Size</summary>
 
@@ -269,19 +267,13 @@ text-9xl	            font-size: 8rem; /* 128px */
                         line-height: 1;
 ```
 
-</details>
-
-<details>
-  <summary>5. Font Size change on Hover </summary>
+Font Size change on Hover:
 
 ```html
 <a class="text-4xl hover:text-base" href="/">Food Ninja</a>
 ```
 
-</details>
-
-<details>
-  <summary>6. Font Size change on media queries</summary>
+Font Size change on media queries:
 
 ```html
 <a class="text-4xl lg:text-9xl" href="/">Food Ninja</a>
@@ -297,19 +289,13 @@ xl	                        1280px	                @media (min-width: 1280px) { .
 2xl	                        1536px	                @media (min-width: 1536px) { ... }
 ```
 
-</details>
-
-<details>
-  <summary>7. Font Size Exact Values</summary>
+Font Size Exact Values:
 
 ```html
 <a class="text-[32px] lg:text-[8rem]" href="/">Food Ninja</a>
 ```
 
-</details>
-
-<details>
-  <summary>8. Font Size Custom Values</summary>
+Font Size Custom Values:
 
 ```html
 <a class="text-base lg:text-5base" href="/">Food Ninja</a>
@@ -392,7 +378,7 @@ module.exports = {
 +TEXT-COLOR
 
 <details>
-  <summary>9. Text Color</summary>
+  <summary>5. Text Color</summary>
 
 ```html
 <p class="text-sky-400">The quick brown fox...</p>
