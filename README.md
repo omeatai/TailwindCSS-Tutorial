@@ -800,10 +800,8 @@ Line Height Exact Values:
 
 </details>
 
-+LIST STYLE
-
 <details>
-  <summary>36. List Style Type</summary>
+  <summary>12. List Style Type</summary>
 
 ```html
 Class           Properties
@@ -829,10 +827,7 @@ list-decimal	    list-style-type: decimal;
 </ul>
 ```
 
-</details>
-
-<details>
-  <summary>37. List Style Type change on hover</summary>
+List Style Type change on hover:
 
 ```html
 <ol class="list-none hover:list-decimal list-inside">
@@ -841,10 +836,7 @@ list-decimal	    list-style-type: decimal;
 </ol>
 ```
 
-</details>
-
-<details>
-  <summary>38. List Style Type change on media queries</summary>
+List Style Type change on media queries:
 
 ```html
 <ol class="list-none lg:list-decimal list-inside">
@@ -853,10 +845,7 @@ list-decimal	    list-style-type: decimal;
 </ol>
 ```
 
-</details>
-
-<details>
-  <summary>39. List Style Type Custom Values</summary>
+List Style Type Custom Values:
 
 tailwind.config.js:
 
@@ -874,10 +863,7 @@ module.exports = {
 }
 ```
 
-</details>
-
-<details>
-  <summary>40. List Style Type Exact Values</summary>
+List Style Type Exact Values:
 
 ```html
  <ol class="list-[upper-roman] list-inside">
@@ -886,10 +872,7 @@ module.exports = {
 </ol>
 ```
 
-</details>
-
-<details>
-  <summary>41. List Style Position</summary>
+List Style Position:
 
 ```html
 Class               Properties
