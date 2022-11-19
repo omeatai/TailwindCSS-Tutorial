@@ -375,8 +375,6 @@ module.exports = {
 
 </details>
 
-+TEXT-COLOR
-
 <details>
   <summary>5. Text Color</summary>
 
@@ -513,10 +511,7 @@ font-black	                    font-weight: 900;
 <p class="font-bold ...">The quick brown fox ...</p>
 ```
 
-</details>
-
-<details>
-  <summary>16. Font Weight Custom Values</summary>
+Font Weight Custom Values:
 
 tailwind.config.js:
 
@@ -545,10 +540,7 @@ module.exports = {
 <h2 class="text-[#30638E] text-6xl font-extreme">Recipes</h2>
 ```
 
-</details>
-
-<details>
-  <summary>17. Font Weight Exact Values</summary>
+Font Weight Exact Values:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900]">Recipes</h2>
