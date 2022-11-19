@@ -701,10 +701,6 @@ tracking-widest	        letter-spacing: 0.1em;
 <p class="tracking-wide ...">The quick brown fox ...</p>
 ```
 
-```html
-node -v
-```
-
 Letter Spacing Custom Values
 
 tailwind.config.js:
