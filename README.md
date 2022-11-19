@@ -460,19 +460,19 @@ Text Color Opacity:
 <p class="text-blue-600/[.06]">The quick brown fox...</p>
 ```
 
-Text Color change on Hover:
+On Hover:
 
 ```html
 <p class="text-slate-400 hover:text-sky-400">The quick brown fox...</p>
 ```
 
-Text Color change on media queries:
+On Media queries:
 
 ```html
 <p class="text-slate-400 lg:text-sky-400">The quick brown fox...</p>
 ```
 
-Text Color Custom Values:
+Custom Values:
 
 ```html
 <h2 class="text-exclusive text-6xl font-semibold">Recipes</h2>
@@ -485,17 +485,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'regal-blue': '#243c5a',
+        'exclusive': '#243c5a',
       },
     }
   }
 }
 ```
 
-Text Color Exact Values:
+Exact Values:
 
 ```html
 <h2 class="text-[#50d71e] text-6xl font-semibold">Recipes</h2>
+
+<p class="text-[#50d71e]">
+  <!-- ... -->
+</p>
 ```
 
 </details>
