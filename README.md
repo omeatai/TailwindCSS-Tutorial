@@ -1008,6 +1008,8 @@ list-outside	        list-style-position: outside;
 
 </details>
 
++TEXT-STYLES
+
 <details>
   <summary>42. sample</summary>
 
