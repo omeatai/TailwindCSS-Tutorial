@@ -897,19 +897,33 @@ module.exports = {
 
 </details>
 
++LIST STYLE
+
 <details>
-  <summary>36. sample</summary>
+  <summary>36. List Style Type</summary>
 
 ```html
-node -v
+Class           Properties
+list-none	    list-style-type: none;
+list-disc	    list-style-type: disc;
+list-decimal	list-style-type: decimal;
 ```
 
 ```html
-node -v
-```
+<ul class="list-disc  list-inside">
+  <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+  <!-- ... -->
+</ul>
 
-```html
-node -v
+<ol class="list-decimal list-inside">
+  <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+  <!-- ... -->
+</ol>
+
+<ul class="list-none list-inside">
+  <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+  <!-- ... -->
+</ul>
 ```
 
 </details>
