@@ -894,10 +894,8 @@ list-outside	        list-style-position: outside;
 
 </details>
 
-+TEXT-ALIGN
-
 <details>
-  <summary>42. Text Align</summary>
+  <summary>13. Text Align</summary>
 
 ```html
 Class           Properties
@@ -916,19 +914,13 @@ text-end	    text-align: end;
 <p class="text-justify ...">So I started to walk into the water...</p>
 ```
 
-</details>
-
-<details>
-  <summary>43. Text Align change on hover </summary>
+Text Align change on hover:
 
 ```html
 <p class="text-left hover:text-center">So I started to walk into the water...</p>
 ```
 
-</details>
-
-<details>
-  <summary>44. Text Align change on media queries</summary>
+Text Align change on media queries:
 
 ```html
 <p class="text-left lg:text-center">So I started to walk into the water...</p>
@@ -936,10 +928,8 @@ text-end	    text-align: end;
 
 </details>
 
-+TEXT-DECORATION
-
 <details>
-  <summary>45. Text Decoration</summary>
+  <summary>14. Text Decoration</summary>
 
 ```html
 Class           Properties
@@ -957,19 +947,13 @@ no-underline	    text-decoration-line: none;
 <p class="no-underline ...">The quick brown fox ...</p>
 ```
 
-</details>
-
-<details>
-  <summary>46. Text Decoration change on hover </summary>
+Text Decoration change on hover:
 
 ```html
 <a href="#" class="no-underline hover:underline">This is a sentence.</a>
 ```
 
-</details>
-
-<details>
-  <summary>47. Text Decoration change on media queries </summary>
+Text Decoration change on media queries:
 
 ```html
 <a href="#" class="no-underline lg:underline">This is a sentence.</a>
@@ -978,7 +962,7 @@ no-underline	    text-decoration-line: none;
 </details>
 
 <details>
-  <summary>48. Text Decoration Color</summary>
+  <summary>14. Text Decoration Color</summary>
 
 ```html
 Class                       Properties
@@ -1039,10 +1023,7 @@ Arbitrary values:
 </p>
 ```
 
-</details>
-
-<details>
-  <summary>49. Text Decoration Style</summary>
+Text Decoration Style:
 
 ```html
 Class                   Properties
@@ -1062,10 +1043,7 @@ decoration-wavy	        text-decoration-style: wavy;
 <p class="underline decoration-wavy ...">The quick brown fox...</p>
 ```
 
-</details>
-
-<details>
-  <summary>50. Text Decoration Thickness</summary>
+Text Decoration Thickness:
 
 ```html
 Class                   Properties
