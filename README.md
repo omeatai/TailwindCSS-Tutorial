@@ -1011,52 +1011,41 @@ list-outside	        list-style-position: outside;
 +TEXT-STYLES
 
 <details>
-  <summary>42. sample</summary>
+  <summary>42. Text Align</summary>
 
 ```html
-node -v
+Class           Properties
+text-left	    text-align: left;
+text-center	    text-align: center;
+text-right	    text-align: right;
+text-justify	    text-align: justify;
+text-start	    text-align: start;
+text-end	    text-align: end;
 ```
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-</details>
-
-<details>
-  <summary>43. sample</summary>
-
-```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<p class="text-left ...">So I started to walk into the water...</p>
+<p class="text-center ...">So I started to walk into the water...</p>
+<p class="text-right ...">So I started to walk into the water...</p>
+<p class="text-justify ...">So I started to walk into the water...</p>
 ```
 
 </details>
 
 <details>
-  <summary>44. sample</summary>
+  <summary>43. Text Align change on hover </summary>
 
 ```html
-node -v
+<p class="text-left hover:text-center">So I started to walk into the water...</p>
 ```
 
-```html
-node -v
-```
+</details>
+
+<details>
+  <summary>44. Text Align change on media queries</summary>
 
 ```html
-node -v
+<p class="text-left lg:text-center">So I started to walk into the water...</p>
 ```
 
 </details>
