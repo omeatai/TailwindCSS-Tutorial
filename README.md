@@ -529,7 +529,11 @@ font-black	                    font-weight: 900;
 <p class="font-bold ...">The quick brown fox ...</p>
 ```
 
-Font Weight Custom Values:
+Custom Values:
+
+```html
+<h2 class="text-[#30638E] text-6xl font-extreme">Recipes</h2>
+```
 
 tailwind.config.js:
 
@@ -554,14 +558,14 @@ module.exports = {
 }
 ```
 
-```html
-<h2 class="text-[#30638E] text-6xl font-extreme">Recipes</h2>
-```
-
-Font Weight Exact Values:
+Exact Values:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900]">Recipes</h2>
+
+<p class="font-[100]">
+  <!-- ... -->
+</p>
 ```
 
 </details>
