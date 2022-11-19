@@ -962,7 +962,7 @@ Text Decoration change on media queries:
 </details>
 
 <details>
-  <summary>14. Text Decoration Color</summary>
+  <summary>15. Text Decoration Color</summary>
 
 ```html
 Class                       Properties
