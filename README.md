@@ -1008,7 +1008,7 @@ list-outside	        list-style-position: outside;
 
 </details>
 
-+TEXT-STYLES
++TEXT-ALIGN
 
 <details>
   <summary>42. Text Align</summary>
@@ -1050,53 +1050,43 @@ text-end	    text-align: end;
 
 </details>
 
++TEXT-DECORATION
+
 <details>
-  <summary>45. sample</summary>
+  <summary>45. Text Decoration</summary>
 
 ```html
-node -v
+Class           Properties
+
+underline	    text-decoration-line: underline;
+overline	    text-decoration-line: overline;
+line-through	    text-decoration-line: line-through;
+no-underline	    text-decoration-line: none;
 ```
 
 ```html
-node -v
-```
-
-```html
-node -v
+<p class="underline ...">The quick brown fox ...</p>
+<p class="overline ...">The quick brown fox ...</p>
+<p class="line-through ...">The quick brown fox ...</p>
+<p class="no-underline ...">The quick brown fox ...</p>
 ```
 
 </details>
 
 <details>
-  <summary>46. sample</summary>
+  <summary>46. Text Decoration change on hover </summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<a href="#" class="no-underline hover:underline">This is a sentence.</a>
 ```
 
 </details>
 
 <details>
-  <summary>47. sample</summary>
+  <summary>47. Text Decoration change on media queries </summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<a href="#" class="no-underline lg:underline">This is a sentence.</a>
 ```
 
 </details>
