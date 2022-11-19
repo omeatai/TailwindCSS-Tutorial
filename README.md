@@ -953,35 +953,34 @@ list-decimal	    list-style-type: decimal;
 </details>
 
 <details>
-  <summary>39. sample</summary>
+  <summary>39. List Style Type Custom Values</summary>
 
-```html
-node -v
-```
+tailwind.config.js:
 
-```html
-node -v
-```
-
-```html
-node -v
+```js
+module.exports = {
+  theme: {
+    listStyleType: {
+      none: 'none',
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
+    }
+  }
+}
 ```
 
 </details>
 
 <details>
-  <summary>40. sample</summary>
+  <summary>40. List Style Type Exact Values</summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+ <ol class="list-[upper-roman] list-inside">
+    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+    <li>Now this is a story all about how, my life got flipped-turned upside down</li>
+</ol>
 ```
 
 </details>
