@@ -843,7 +843,9 @@ leading-loose	    line-height: 2;
 ```
 
 ```html
-node -v
+<p class="leading-6 ...">So I started to walk into the water...</p>
+<p class="leading-7 ...">So I started to walk into the water...</p>
+<p class="leading-8 ...">So I started to walk into the water...</p>
 ```
 
 </details>
