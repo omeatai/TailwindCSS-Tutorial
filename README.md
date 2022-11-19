@@ -869,35 +869,30 @@ leading-loose	    line-height: 2;
 </details>
 
 <details>
-  <summary>34. sample</summary>
+  <summary>34. Line Height Custom Values</summary>
 
-```html
-node -v
-```
+tailwind.config.js:
 
-```html
-node -v
-```
-
-```html
-node -v
+```js
+module.exports = {
+  theme: {
+    extend: {
+      lineHeight: {
+        'extra-loose': '2.5',
+        '12': '3rem',
+      }
+    }
+  }
+}
 ```
 
 </details>
 
 <details>
-  <summary>35. sample</summary>
+  <summary>35. Line Height Exact Values</summary>
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<h3 class="text-2xl font-semibold leading-[3rem]">For Ninjas</h3>
 ```
 
 </details>
