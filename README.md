@@ -751,7 +751,44 @@ tracking-widest	        letter-spacing: 0.1em;
 <p class="tracking-wide ...">The quick brown fox ...</p>
 ```
 
-Letter Spacing Custom Values
+Using negative values:
+
+```html
+<p class="-tracking-2">The quick brown fox ...</p>
+```
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    letterSpacing: {
+      '1': '0em',
+      '2': '0.025em',
+      '3': '0.05em',
+      '4': '0.1em',
+    }
+  }
+}
+```
+
+On Hover:
+
+```html
+<p class="tracking-tight hover:tracking-wide">
+  <!-- ... -->
+</p>
+```
+
+On Media queries:
+
+```html
+<p class="tracking-tight md:tracking-wide">
+  <!-- ... -->
+</p>
+```
+
+Custom Values:
 
 tailwind.config.js:
 
@@ -772,7 +809,7 @@ module.exports = {
 }
 ```
 
-Letter Spacing Exact Values:
+Exact Values:
 
 ```html
 <h2 class="text-[#30638E] text-6xl font-[900] tracking-[.25em]">Recipes</h2>
