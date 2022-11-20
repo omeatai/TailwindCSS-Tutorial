@@ -1482,16 +1482,28 @@ align-super	        vertical-align: super;
 <span class="inline-block align-text-bottom ...">...</span>
 ```
 
-```html
-node -v
-```
+On Hover:
 
 ```html
-node -v
+<p class="align-middle hover:align-top">
+  <!-- ... -->
+</p>
 ```
 
+On Media queries:
+
 ```html
-node -v
+<p class="align-middle md:align-top">
+  <!-- ... -->
+</p>
+```
+
+Exact Values:
+
+```html
+<div class="align-[4px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
