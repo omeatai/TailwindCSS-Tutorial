@@ -1474,7 +1474,12 @@ align-super	        vertical-align: super;
 ```
 
 ```html
-node -v
+<span class="inline-block align-baseline ...">...</span>
+<span class="inline-block align-top ...">...</span>
+<span class="inline-block align-middle ...">...</span>
+<span class="inline-block align-bottom ...">...</span>
+<span class="inline-block align-text-top ...">...</span>
+<span class="inline-block align-text-bottom ...">...</span>
 ```
 
 ```html
