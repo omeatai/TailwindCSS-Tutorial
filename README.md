@@ -2184,8 +2184,10 @@ Exact Values:
 
 </details>
 
+##### [C. BORDERS](#)
+
 <details>
-  <summary>61. sample</summary>
+  <summary>61. Border Radius</summary>
 
 ```html
 node -v
@@ -2527,4 +2529,4 @@ node -v
 
 
 
-##### [C. BORDERS](#)
+##### [D. B](#)
