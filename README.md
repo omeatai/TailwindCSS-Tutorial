@@ -1310,18 +1310,38 @@ Exact Values:
 </details>
 
 <details>
-  <summary>52. sample</summary>
+  <summary>52. Text Overflow</summary>
 
 ```html
-node -v
+Class               Properties
+
+truncate	        overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+text-ellipsis	    text-overflow: ellipsis;
+text-clip	        text-overflow: clip;
 ```
 
 ```html
-node -v
+<p class="truncate ...">...</p>
+<p class="text-ellipsis overflow-hidden ...">...</p>
+<p class="text-clip overflow-hidden ...">...</p>
 ```
 
+On Hover:
+
 ```html
-node -v
+<p class="truncate hover:text-clip">
+  <!-- ... -->
+</p>
+```
+
+On Media queries:
+
+```html
+<p class="truncate md:text-clip">
+  <!-- ... -->
+</p>
 ```
 
 </details>
