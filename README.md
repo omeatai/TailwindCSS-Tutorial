@@ -1799,11 +1799,66 @@ p-96	                    padding: 24rem; /* 384px */
 ```
 
 ```html
-node -v
+<div class="pt-6 ...">pt-6</div>
+<div class="pr-4 ...">pr-4</div>
+<div class="pb-8 ...">pb-8</div>
+<div class="pl-2 ...">pl-2</div>
+
+<div class="px-8 ...">px-8</div>
+<div class="py-8 ...">py-8</div>
+<div class="p-8 ...">p-8</div>
 ```
 
+On Hover:
+
 ```html
-node -v
+<div class="py-4 hover:py-8">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="py-4 md:py-8">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      spacing: {
+        '5px': '5px',
+      }
+    }
+  }
+}
+```
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      padding: {
+        '5px': '5px',
+      }
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="p-[5px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
