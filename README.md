@@ -1512,12 +1512,12 @@ Exact Values:
   <summary>55. Whitespace</summary>
 
 ```html
-Class                   Properties
-whitespace-normal	    white-space: normal;
-whitespace-nowrap	    white-space: nowrap;
-whitespace-pre	        white-space: pre;
-whitespace-pre-line	    white-space: pre-line;
-whitespace-pre-wrap	    white-space: pre-wrap;
+Class                           Properties
+whitespace-normal	        white-space: normal;
+whitespace-nowrap	        white-space: nowrap;
+whitespace-pre	                white-space: pre;
+whitespace-pre-line	        white-space: pre-line;
+whitespace-pre-wrap	        white-space: pre-wrap;
 ```
 
 Normal
