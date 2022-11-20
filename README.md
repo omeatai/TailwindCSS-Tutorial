@@ -2101,11 +2101,85 @@ space-x-reverse > * + *	    --tw-space-x-reverse: 1;
 ```
 
 ```html
-node -v
+<div class="flex space-x-4 ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
 ```
 
 ```html
-node -v
+<div class="flex flex-col space-y-4 ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+```html
+<div class="flex flex-row-reverse space-x-4 space-x-reverse ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+```html
+<div class="flex -space-x-4 ...">
+  <!-- ... -->
+</div>
+```
+
+On Hover:
+
+```html
+<div class="flex space-x-2 hover:space-x-8">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="flex space-x-2 md:space-x-8">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      spacing: {
+        '5px': '5px',
+      }
+    }
+  }
+}
+```
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      space: {
+        '5px': '5px',
+      }
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="space-y-[5px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
