@@ -1248,18 +1248,63 @@ Exact values:
 </details>
 
 <details>
-  <summary>18. sample</summary>
+  <summary>18. Text Underline Offset</summary>
 
 ```html
-node -v
+Class                       Properties
+underline-offset-auto	    text-underline-offset: auto;
+underline-offset-0	    text-underline-offset: 0px;
+underline-offset-1	    text-underline-offset: 1px;
+underline-offset-2	    text-underline-offset: 2px;
+underline-offset-4	    text-underline-offset: 4px;
+underline-offset-8	    text-underline-offset: 8px;
 ```
 
 ```html
-node -v
+<p class="underline underline-offset-1 ...">The quick brown fox...</p>
+<p class="underline underline-offset-2 ...">The quick brown fox...</p>
+<p class="underline underline-offset-4 ...">The quick brown fox...</p>
+<p class="underline underline-offset-8 ...">The quick brown fox...</p>
 ```
 
+On Hover:
+
 ```html
-node -v
+<p class="underline hover:underline-offset-4">
+  <!-- ... -->
+</p>
+```
+
+On Media queries:
+
+```html
+<p class="underline md:underline-offset-4">
+  <!-- ... -->
+</p>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      textUnderlineOffset: {
+        3: '3px',
+      }
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<p class="underline-offset-[3px]">
+  <!-- ... -->
+</p>
 ```
 
 </details>
