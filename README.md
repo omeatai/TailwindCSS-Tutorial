@@ -914,7 +914,7 @@ list-decimal	    list-style-type: decimal;
 </ul>
 ```
 
-List Style Type change on hover:
+On Hover:
 
 ```html
 <ol class="list-none hover:list-decimal list-inside">
@@ -923,7 +923,7 @@ List Style Type change on hover:
 </ol>
 ```
 
-List Style Type change on media queries:
+On Media queries:
 
 ```html
 <ol class="list-none lg:list-decimal list-inside">
@@ -932,7 +932,7 @@ List Style Type change on media queries:
 </ol>
 ```
 
-List Style Type Custom Values:
+Custom Values:
 
 tailwind.config.js:
 
@@ -950,7 +950,7 @@ module.exports = {
 }
 ```
 
-List Style Type Exact Values:
+Exact Values:
 
 ```html
  <ol class="list-[upper-roman] list-inside">
@@ -1001,13 +1001,13 @@ text-end	    text-align: end;
 <p class="text-justify ...">So I started to walk into the water...</p>
 ```
 
-Text Align change on hover:
+On Hover:
 
 ```html
 <p class="text-left hover:text-center">So I started to walk into the water...</p>
 ```
 
-Text Align change on media queries:
+On Media queries:
 
 ```html
 <p class="text-left lg:text-center">So I started to walk into the water...</p>
@@ -1034,13 +1034,13 @@ no-underline	    text-decoration-line: none;
 <p class="no-underline ...">The quick brown fox ...</p>
 ```
 
-Text Decoration change on hover:
+On Hover:
 
 ```html
 <a href="#" class="no-underline hover:underline">This is a sentence.</a>
 ```
 
-Text Decoration change on media queries:
+On Media queries:
 
 ```html
 <a href="#" class="no-underline lg:underline">This is a sentence.</a>
