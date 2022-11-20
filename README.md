@@ -1572,6 +1572,19 @@ You will never know.</div>
 </div>
 ```
 
+Pre Wrap -
+Use whitespace-pre-wrap to preserve newlines and spaces within an element. Text will be wrapped normally.
+
+```html
+<div class="w-3/4 ...">
+  <div class="whitespace-pre-wrap ...">Hey everyone!
+
+It's almost 2022       and we still don't know if there is aliens living among us, or do we? Maybe the person writing this is an alien.
+
+You will never know.</div>
+</div>
+```
+
 On Hover:
 
 ```html
