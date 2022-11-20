@@ -2461,20 +2461,81 @@ border-l-8	            border-left-width: 8px;
 border-l	            border-left-width: 1px;
 ```
 
-```html
-node -v
-```
+All sides:
 
 ```html
-node -v
+<div class="border border-sky-500"></div>
+<div class="border-2 border-sky-500"></div>
+<div class="border-4 border-sky-500"></div>
+<div class="border-8 border-sky-500"></div>
 ```
 
-```html
-node -v
-```
+Individual sides:
 
 ```html
-node -v
+<div class="border-t-4 border-indigo-500 ..."></div>
+<div class="border-r-4 border-indigo-500 ..."></div>
+<div class="border-b-4 border-indigo-500 ..."></div>
+<div class="border-l-4 border-indigo-500 ..."></div>
+```
+
+Horizontal and vertical sides:
+
+```html
+<div class="border-x-4 border-indigo-500 ..."></div>
+<div class="border-y-4 border-indigo-500 ..."></div>
+```
+
+Between elements:
+
+```html
+<div class="divide-y divide-slate-700 ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="border-2 hover:border-t-4">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="border-2 md:border-t-4">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+```js
+module.exports = {
+  theme: {
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="border-t-[3px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
