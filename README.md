@@ -1604,10 +1604,15 @@ On Media queries:
 </details>
 
 <details>
-  <summary>56. sample</summary>
+  <summary>56. Word Break</summary>
 
 ```html
-node -v
+Class                   Properties
+break-normal	        overflow-wrap: normal;
+word-break:         normal;
+break-words	        overflow-wrap: break-word;
+break-all	        word-break: break-all;
+break-keep	        word-break: keep-all;
 ```
 
 ```html
