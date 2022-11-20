@@ -1640,18 +1640,82 @@ On Media queries:
 </details>
 
 <details>
-  <summary>57. sample</summary>
+  <summary>57. Content</summary>
 
 ```html
-node -v
+Class               Properties
+content-none	    content: none;
+```
+
+Setting a pseudo-element's content:
+
+```html
+Higher resolution means more than just a better-quality image. With a Retina
+6K display, <a class="text-sky-400 after:content-['_↗'] ..." href="https://www.
+apple.com/pro-display-xdr/" target="_blank">Pro Display XDR</a> gives you
+nearly 40 percent more screen real estate than a 5K display.
+```
+
+Referencing an attribute value:
+
+```html
+<div before="Hello World" class="before:content-[attr(before)]">
+  <!-- ... -->
+</div>
+```
+
+Using spaces and underscores:
+
+```html
+<div class="before:content-['Hello_World']">
+  <!-- ... -->
+</div>
 ```
 
 ```html
-node -v
+<div class="before:content-['Hello\_World']">
+  <!-- ... -->
+</div>
 ```
 
+On Hover:
+
 ```html
-node -v
+<div class="before:content-['Not_Hovering'] hover:before:content-['Hovering']">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="before:content-['Mobile'] md:before:content-['Desktop']">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      content: {
+        'link': 'url("/icons/link.svg")',
+      },
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="before:content-['Hello_World']">
+  <!-- ... -->
+</div>
 ```
 
 </details>
