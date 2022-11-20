@@ -2320,19 +2320,85 @@ rounded-bl-full	        border-bottom-left-radius: 9999px;
 ```
 
 ```html
-node -v
+<div class="rounded ..."></div>
+<div class="rounded-md ..."></div>
+<div class="rounded-lg ..."></div>
+<div class="rounded-full ..."></div>
 ```
 
-```html
-node -v
-```
+Pill buttons:
 
 ```html
-node -v
+<button class="rounded-full ...">Save Changes</button>
 ```
 
+No rounding/border-Radius:
+
 ```html
-node -v
+<button class="rounded-none ...">Save Changes</button>
+```
+
+Rounding sides separately:
+
+```html
+<div class="rounded-t-lg ..."></div>
+<div class="rounded-r-lg ..."></div>
+<div class="rounded-b-lg ..."></div>
+<div class="rounded-l-lg ..."></div>
+```
+
+Rounding corners separately:
+
+```html
+<div class="rounded-tl-lg ..."></div>
+<div class="rounded-tr-lg ..."></div>
+<div class="rounded-br-lg ..."></div>
+<div class="rounded-bl-lg ..."></div>
+```
+
+On Hover:
+
+```html
+<div class="rounded hover:rounded-lg">
+  <!-- ... -->
+</div>
+```
+
+On Media Queries:
+
+```html
+<div class="rounded md:rounded-lg">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    borderRadius: {
+      'none': '0',
+      'sm': '0.125rem',
+      DEFAULT: '0.25rem',
+      DEFAULT: '4px',
+      'md': '0.375rem',
+      'lg': '0.5rem',
+      'full': '9999px',
+      'large': '12px',
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="rounded-[12px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
