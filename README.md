@@ -1616,11 +1616,25 @@ break-keep	        word-break: keep-all;
 ```
 
 ```html
-node -v
+<p class="break-normal ...">...</p>
+<p class="break-words ...">...</p>
+<p class="break-all ...">...</p>
 ```
 
+On Hover:
+
 ```html
-node -v
+<p class="break-normal hover:break-all">
+  <!-- ... -->
+</p>
+```
+
+On Media queries:
+
+```html
+<p class="break-normal md:break-all">
+  <!-- ... -->
+</p>
 ```
 
 </details>
