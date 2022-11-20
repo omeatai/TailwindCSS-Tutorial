@@ -2544,18 +2544,19 @@ Exact Values:
   <summary>63. Border Color</summary>
 
 ```html
-Class                           Properties
+Class                               Properties
 
-border-inherit	                border-color: inherit;
-border-current	                border-color: currentColor;
+border-inherit	                    border-color: inherit;
+border-current	                    border-color: currentColor;
 border-transparent	            border-color: transparent;
-border-black	                border-color: rgb(0 0 0);
-border-white	                border-color: rgb(255 255 255);
-border-slate-50	                border-color: rgb(248 250 252);
+border-black	                    border-color: rgb(0 0 0);
+border-white	                    border-color: rgb(255 255 255);
+
+border-slate-50	                    border-color: rgb(248 250 252);
 border-slate-100	            border-color: rgb(241 245 249);
 border-slate-200	            border-color: rgb(226 232 240);
 border-slate-300	            border-color: rgb(203 213 225);
-border-slate-400	            border-color: rgb(148 163 184);
+border-slate-400	             border-color: rgb(148 163 184);
 border-slate-500	            border-color: rgb(100 116 139);
 border-slate-600	            border-color: rgb(71 85 105);
 border-slate-700	            border-color: rgb(51 65 85);
