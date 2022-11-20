@@ -1399,15 +1399,61 @@ indent-96	text-indent: 24rem; /* 384px */
 ```
 
 ```html
-node -v
+<div class="-indent-8">
+  So I started to walk into the water. I won't lie to...
+</div>
 ```
 
-```html
-node -v
-```
+On Hover:
 
 ```html
-node -v
+<div class="indent-4 hover:indent-8">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="indent-4 md:indent-8">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      spacing: {
+        '128': '32rem',
+      }
+    }
+  }
+}
+```
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      textIndent: {
+        '128': '32rem',
+      }
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="indent-[50%]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
