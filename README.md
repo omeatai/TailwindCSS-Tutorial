@@ -1315,11 +1315,11 @@ Exact Values:
 ```html
 Class               Properties
 
-truncate	        overflow: hidden;
+truncate	    overflow: hidden;
                     text-overflow: ellipsis;
                     white-space: nowrap;
 text-ellipsis	    text-overflow: ellipsis;
-text-clip	        text-overflow: clip;
+text-clip	    text-overflow: clip;
 ```
 
 ```html
