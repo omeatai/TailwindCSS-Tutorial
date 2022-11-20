@@ -1787,7 +1787,7 @@ p-28	                    padding: 7rem; /* 112px */
 p-32	                    padding: 8rem; /* 128px */
 p-36	                    padding: 9rem; /* 144px */
 p-40	                    padding: 10rem; /* 160px */
-p-44                    padding: 11rem; /* 176px */
+p-44                        padding: 11rem; /* 176px */
 p-48	                    padding: 12rem; /* 192px */
 p-52	                    padding: 13rem; /* 208px */
 p-56	                    padding: 14rem; /* 224px */
