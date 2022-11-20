@@ -2024,7 +2024,7 @@ Exact Values:
   <summary>60. Space Between</summary>
 
 ```html
-Class                   Properties
+Class                       Properties
 
 space-x-0 > * + *	    margin-left: 0px;
 space-y-0 > * + *	    margin-top: 0px;
@@ -2096,8 +2096,8 @@ space-x-96 > * + *	    margin-left: 24rem; /* 384px */
 space-y-96 > * + *	    margin-top: 24rem; /* 384px */
 space-x-px > * + *	    margin-left: 1px;
 space-y-px > * + *	    margin-top: 1px;
-space-y-reverse > * + *	--tw-space-y-reverse: 1;
-space-x-reverse > * + *	--tw-space-x-reverse: 1;
+space-y-reverse > * + *	    --tw-space-y-reverse: 1;
+space-x-reverse > * + *	    --tw-space-x-reverse: 1;
 ```
 
 ```html
