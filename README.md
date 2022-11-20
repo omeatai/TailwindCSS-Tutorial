@@ -850,19 +850,19 @@ leading-loose	    line-height: 2;
 <p class="leading-8 ...">So I started to walk into the water...</p>
 ```
 
-Line Height change on hover:
+On Hover:
 
 ```html
 <h3 class="text-2xl font-semibold leading-none hover:leading-loose">For Ninjas</h3>
 ```
 
-Line Height change on media queries:
+On Media queries:
 
 ```html
 <h3 class="text-2xl font-semibold leading-none lg:leading-loose">For Ninjas</h3>
 ```
 
-Line Height Custom Values:
+Custom Values:
 
 tailwind.config.js:
 
@@ -879,7 +879,7 @@ module.exports = {
 }
 ```
 
-Line Height Exact Values:
+Exact Values:
 
 ```html
 <h3 class="text-2xl font-semibold leading-[3rem]">For Ninjas</h3>
