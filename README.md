@@ -1520,7 +1520,7 @@ whitespace-pre-line	        white-space: pre-line;
 whitespace-pre-wrap	        white-space: pre-wrap;
 ```
 
-Normal
+Normal -
 Use whitespace-normal to cause text to wrap normally within an element. Newlines and spaces will be collapsed.
 
 ```html
@@ -1533,7 +1533,7 @@ You will never know.</div>
 </div>
 ```
 
-No Wrap
+No Wrap -
 Use whitespace-nowrap to prevent text from wrapping within an element. Newlines and spaces will be collapsed.
 
 ```html
@@ -1546,7 +1546,7 @@ You will never know.</div>
 </div>
 ```
 
-Pre
+Pre -
 Use whitespace-pre to preserve newlines and spaces within an element. Text will not be wrapped.
 
 ```html
@@ -1559,7 +1559,7 @@ You will never know.</div>
 </div>
 ```
 
-Pre Line
+Pre Line -
 Use whitespace-pre-line to preserve newlines but not spaces within an element. Text will be wrapped normally.
 
 ```html
