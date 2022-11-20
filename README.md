@@ -2190,11 +2190,11 @@ Exact Values:
   <summary>61. Border Radius</summary>
 
 ```html
-Class                   Properties
+Class                       Properties
 
-rounded-none	        border-radius: 0px;
+rounded-none	            border-radius: 0px;
 rounded-sm	            border-radius: 0.125rem; /* 2px */
-rounded	                border-radius: 0.25rem; /* 4px */
+rounded	                    border-radius: 0.25rem; /* 4px */
 rounded-md	            border-radius: 0.375rem; /* 6px */
 rounded-lg	            border-radius: 0.5rem; /* 8px */
 rounded-xl	            border-radius: 0.75rem; /* 12px */
