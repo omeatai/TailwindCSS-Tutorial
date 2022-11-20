@@ -1869,7 +1869,7 @@ Exact Values:
 ```html
 Class                   Properties
 <!-- p-0 -->
-m-0	                    margin: 0px;
+m-0	                margin: 0px;
 mx-0	                margin-left: 0px;
                         margin-right: 0px;
 my-0	                margin-top: 0px;
@@ -1899,7 +1899,7 @@ mr-0.5	                margin-right: 0.125rem; /* 2px */
 mb-0.5	                margin-bottom: 0.125rem; /* 2px */
 ml-0.5	                margin-left: 0.125rem; /* 2px */
 <!-- p-1 -->
-m-1	                    margin: 0.25rem; /* 4px */
+m-1	                margin: 0.25rem; /* 4px */
 mx-1	                margin-left: 0.25rem; /* 4px */
                         margin-right: 0.25rem; /* 4px */
 my-1	                margin-top: 0.25rem; /* 4px */
@@ -1910,16 +1910,16 @@ mb-1	                margin-bottom: 0.25rem; /* 4px */
 ml-1	                margin-left: 0.25rem; /* 4px */
 <!-- others -->
 m-1.5	                margin: 0.375rem; /* 6px */
-m-2	                    margin: 0.5rem; /* 8px */
+m-2	                margin: 0.5rem; /* 8px */
 m-2.5	                margin: 0.625rem; /* 10px */
-m-3	                    margin: 0.75rem; /* 12px */
+m-3	                margin: 0.75rem; /* 12px */
 m-3.5	                margin: 0.875rem; /* 14px */
-m-4	                    margin: 1rem; /* 16px */
-m-5	                    margin: 1.25rem; /* 20px */
-m-6	                    margin: 1.5rem; /* 24px */
-m-7	                    margin: 1.75rem; /* 28px */
-m-8	                    margin: 2rem; /* 32px */
-m-9	                    margin: 2.25rem; /* 36px */
+m-4	                margin: 1rem; /* 16px */
+m-5	                margin: 1.25rem; /* 20px */
+m-6	                margin: 1.5rem; /* 24px */
+m-7	                margin: 1.75rem; /* 28px */
+m-8	                margin: 2rem; /* 32px */
+m-9	                margin: 2.25rem; /* 36px */
 m-10	                margin: 2.5rem; /* 40px */
 m-11	                margin: 2.75rem; /* 44px */
 m-12	                margin: 3rem; /* 48px */
