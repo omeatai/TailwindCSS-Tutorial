@@ -1727,7 +1727,7 @@ Exact Values:
 
 ```html
 Class                       Properties
-p-0	                        padding: 0px;
+p-0	                    padding: 0px;
 px-0	                    padding-left: 0px;
                             padding-right: 0px;
 py-0	padding-top: 0px;
