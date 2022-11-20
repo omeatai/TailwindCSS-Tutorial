@@ -1098,11 +1098,43 @@ Changing the opacity:
 <strong class="underline decoration-sky-500/[.33]"></strong>
 ```
 
+On Hover:
+
+```html
+<p class="underline decoration-sky-600 hover:decoration-blue-400">
+  <!-- ... -->
+</p>
+```
+
 ```html
 <a href="#" class="no-underline hover:underline hover:decoration-pink-700">This is a sentence.</a>
 ```
 
-Custom values:
+On Media queries:
+
+```html
+<p class="underline decoration-sky-600 md:decoration-blue-400">
+  <!-- ... -->
+</p>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'regal-blue': '#243c5a',
+      },
+    }
+  }
+}
+```
+
+Exact values:
 
 ```html
 <p class="decoration-[#50d71e]">
