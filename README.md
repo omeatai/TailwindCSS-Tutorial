@@ -1864,18 +1864,158 @@ Exact Values:
 </details>
 
 <details>
-  <summary>59. sample</summary>
+  <summary>59. Margin</summary>
 
 ```html
-node -v
+Class                   Properties
+<!-- p-0 -->
+m-0	                    margin: 0px;
+mx-0	                margin-left: 0px;
+                        margin-right: 0px;
+my-0	                margin-top: 0px;
+                        margin-bottom: 0px;
+mt-0	                margin-top: 0px;
+mr-0	                margin-right: 0px;
+mb-0	                margin-bottom: 0px;
+ml-0	                margin-left: 0px;
+<!-- p-px -->
+m-px	                margin: 1px;
+mx-px	                margin-left: 1px;
+                        margin-right: 1px;
+my-px	                margin-top: 1px;
+                        margin-bottom: 1px;
+mt-px	                margin-top: 1px;
+mr-px	                margin-right: 1px;
+mb-px	                margin-bottom: 1px;
+ml-px	                margin-left: 1px;
+<!-- p-0.5 -->
+m-0.5	                margin: 0.125rem; /* 2px */
+mx-0.5	                margin-left: 0.125rem; /* 2px */
+                        margin-right: 0.125rem; /* 2px */
+my-0.5	                margin-top: 0.125rem; /* 2px */
+                        margin-bottom: 0.125rem; /* 2px */
+mt-0.5	                margin-top: 0.125rem; /* 2px */
+mr-0.5	                margin-right: 0.125rem; /* 2px */
+mb-0.5	                margin-bottom: 0.125rem; /* 2px */
+ml-0.5	                margin-left: 0.125rem; /* 2px */
+<!-- p-1 -->
+m-1	                    margin: 0.25rem; /* 4px */
+mx-1	                margin-left: 0.25rem; /* 4px */
+                        margin-right: 0.25rem; /* 4px */
+my-1	                margin-top: 0.25rem; /* 4px */
+                        margin-bottom: 0.25rem; /* 4px */
+mt-1	                margin-top: 0.25rem; /* 4px */
+mr-1	                margin-right: 0.25rem; /* 4px */
+mb-1	                margin-bottom: 0.25rem; /* 4px */
+ml-1	                margin-left: 0.25rem; /* 4px */
+<!-- others -->
+m-1.5	                margin: 0.375rem; /* 6px */
+m-2	                    margin: 0.5rem; /* 8px */
+m-2.5	                margin: 0.625rem; /* 10px */
+m-3	                    margin: 0.75rem; /* 12px */
+m-3.5	                margin: 0.875rem; /* 14px */
+m-4	                    margin: 1rem; /* 16px */
+m-5	                    margin: 1.25rem; /* 20px */
+m-6	                    margin: 1.5rem; /* 24px */
+m-7	                    margin: 1.75rem; /* 28px */
+m-8	                    margin: 2rem; /* 32px */
+m-9	                    margin: 2.25rem; /* 36px */
+m-10	                margin: 2.5rem; /* 40px */
+m-11	                margin: 2.75rem; /* 44px */
+m-12	                margin: 3rem; /* 48px */
+m-14	                margin: 3.5rem; /* 56px */
+m-16	                margin: 4rem; /* 64px */
+m-20	                margin: 5rem; /* 80px */
+m-24	                margin: 6rem; /* 96px */
+m-28	                margin: 7rem; /* 112px */
+m-32	                margin: 8rem; /* 128px */
+m-36	                margin: 9rem; /* 144px */
+m-40	                margin: 10rem; /* 160px */
+m-44	                margin: 11rem; /* 176px */
+m-48	                margin: 12rem; /* 192px */
+m-52	                margin: 13rem; /* 208px */
+m-56	                margin: 14rem; /* 224px */
+m-60	                margin: 15rem; /* 240px */
+m-64	                margin: 16rem; /* 256px */
+m-72	                margin: 18rem; /* 288px */
+m-80	                margin: 20rem; /* 320px */
+m-96	                margin: 24rem; /* 384px */
+<!-- auto -->
+m-auto	                margin: auto;
+mx-auto	                margin-left: auto;
+                        margin-right: auto;
+my-auto	                margin-top: auto;
+                        margin-bottom: auto;
+mt-auto	                margin-top: auto;
+mr-auto	                margin-right: auto;
+mb-auto	                margin-bottom: auto;
+ml-auto	                margin-left: auto;
 ```
 
 ```html
-node -v
+<div class="mt-6 ...">mt-6</div>
+<div class="mr-4 ...">mr-4</div>
+<div class="mb-8 ...">mb-8</div>
+<div class="ml-2 ...">ml-2</div>
+
+<div class="mx-8 ...">mx-8</div>
+<div class="my-8 ...">my-8</div>
+<div class="m-8 ...">m-8</div>
+
+<div class="w-36 h-16 bg-sky-400 opacity-20 ..."></div>
+<div class="-mt-8 bg-sky-300 ...">-mt-8</div>
 ```
 
+On Hover:
+
 ```html
-node -v
+<div class="mt-4 hover:mt-8">
+  <!-- ... -->
+</div>
+```
+
+On Media Queries:
+
+```html
+<div class="mt-4 md:mt-8">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      spacing: {
+        '5px': '5px',
+      }
+    }
+  }
+}
+```
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      margin: {
+        '5px': '5px',
+      }
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="m-[5px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
