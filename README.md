@@ -1389,6 +1389,20 @@ indent-96	text-indent: 24rem; /* 384px */
 ```
 
 ```html
+<p class="indent-8">
+  So I started to walk into the water. I won't lie to you boys, I was
+  terrified. But I pressed on, and as I made my way past the breakers
+  a strange calm came over me. I don't know if it was divine intervention
+  or the kinship of all living things but I tell you Jerry at that moment,
+  I <em>was</em> a marine biologist.
+</p>
+```
+
+```html
+node -v
+```
+
+```html
 node -v
 ```
 
