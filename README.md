@@ -2541,14 +2541,32 @@ Exact Values:
 </details>
 
 <details>
-  <summary>63. sample</summary>
+  <summary>63. Border Color</summary>
 
 ```html
-node -v
+Class                           Properties
+
+border-inherit	                border-color: inherit;
+border-current	                border-color: currentColor;
+border-transparent	            border-color: transparent;
+border-black	                border-color: rgb(0 0 0);
+border-white	                border-color: rgb(255 255 255);
+border-slate-50	                border-color: rgb(248 250 252);
+border-slate-100	            border-color: rgb(241 245 249);
+border-slate-200	            border-color: rgb(226 232 240);
+border-slate-300	            border-color: rgb(203 213 225);
+border-slate-400	            border-color: rgb(148 163 184);
+border-slate-500	            border-color: rgb(100 116 139);
+border-slate-600	            border-color: rgb(71 85 105);
+border-slate-700	            border-color: rgb(51 65 85);
+border-slate-800	            border-color: rgb(30 41 59);
+border-slate-900	            border-color: rgb(15 23 42);
 ```
 
+Setting the border color:
+
 ```html
-node -v
+<input class="border-2 border-rose-500 ...">
 ```
 
 ```html
