@@ -1757,7 +1757,7 @@ pr-0.5	                    padding-right: 0.125rem; /* 2px */
 pb-0.5	                    padding-bottom: 0.125rem; /* 2px */
 pl-0.5	                    padding-left: 0.125rem; /* 2px */
 <!-- p-1 -->
-p-1	                        padding: 0.25rem; /* 4px */
+p-1	                    padding: 0.25rem; /* 4px */
 px-1	                    padding-left: 0.25rem; /* 4px */
                             padding-right: 0.25rem; /* 4px */
 py-1	                    padding-top: 0.25rem; /* 4px */
@@ -1768,14 +1768,14 @@ pb-1	                    padding-bottom: 0.25rem; /* 4px */
 pl-1	                    padding-left: 0.25rem; /* 4px */
 <!-- others -->
 p-1.5	                    padding: 0.375rem; /* 6px */
-p-2	                        padding: 0.5rem; /* 8px */
-p-3	                        padding: 0.75rem; /* 12px */
-p-4	                        padding: 1rem; /* 16px */
-p-5	                        padding: 1.25rem; /* 20px */
-p-6	                        padding: 1.5rem; /* 24px */
-p-7	                        padding: 1.75rem; /* 28px */
-p-8	                        padding: 2rem; /* 32px */
-p-9	                        padding: 2.25rem; /* 36px */
+p-2	                    padding: 0.5rem; /* 8px */
+p-3	                    padding: 0.75rem; /* 12px */
+p-4	                    padding: 1rem; /* 16px */
+p-5	                    padding: 1.25rem; /* 20px */
+p-6	                    padding: 1.5rem; /* 24px */
+p-7	                    padding: 1.75rem; /* 28px */
+p-8	                    padding: 2rem; /* 32px */
+p-9	                    padding: 2.25rem; /* 36px */
 p-10	                    padding: 2.5rem; /* 40px */
 p-11	                    padding: 2.75rem; /* 44px */
 p-12	                    padding: 3rem; /* 48px */
@@ -1787,7 +1787,7 @@ p-28	                    padding: 7rem; /* 112px */
 p-32	                    padding: 8rem; /* 128px */
 p-36	                    padding: 9rem; /* 144px */
 p-40	                    padding: 10rem; /* 160px */
-p-44                    	padding: 11rem; /* 176px */
+p-44                    padding: 11rem; /* 176px */
 p-48	                    padding: 12rem; /* 192px */
 p-52	                    padding: 13rem; /* 208px */
 p-56	                    padding: 14rem; /* 224px */
