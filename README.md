@@ -1720,6 +1720,8 @@ Exact Values:
 
 </details>
 
+##### [B. SPACING](#)
+
 <details>
   <summary>58. sample</summary>
 
@@ -1774,4 +1776,4 @@ node -v
 
 
 
-##### [B. TYPOGRAPHY](#)
+##### [C. BORDERS](#)
