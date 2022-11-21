@@ -3546,18 +3546,108 @@ On Media queries:
 </details>
 
 <details>
-  <summary>81. sample</summary>
+  <summary>81. Flex</summary>
+
+Utilities for controlling how flex items both grow and shrink.
 
 ```html
-node -v
+Class               Properties
+flex-1	            flex: 1 1 0%;
+flex-auto	        flex: 1 1 auto;
+flex-initial	    flex: 0 1 auto;
+flex-none	        flex: none;
 ```
 
-```html
-node -v
-```
+Initial:
+Use flex-initial to allow a flex item to shrink but not grow, taking into account its initial size:
 
 ```html
-node -v
+<div class="flex">
+  <div class="flex-none w-14 h-14">
+    01
+  </div>
+  <div class="flex-initial w-64 ...">
+    02
+  </div>
+  <div class="flex-initial w-32 ...">
+    03
+  </div>
+</div>
+```
+
+Flex 1
+Use flex-1 to allow a flex item to grow and shrink as needed, ignoring its initial size:
+
+```html
+<div class="flex">
+  <div class="flex-none ...">
+    01
+  </div>
+  <div class="flex-1 w-64 ...">
+    02
+  </div>
+  <div class="flex-1 w-32 ...">
+    03
+  </div>
+</div>
+```
+
+Auto
+Use flex-auto to allow a flex item to grow and shrink, taking into account its initial size:
+
+```html
+<div class="flex ...">
+  <div class="flex-none ...">
+    01
+  </div>
+  <div class="flex-auto w-64 ...">
+    02
+  </div>
+  <div class="flex-auto w-32 ...">
+    03
+  </div>
+</div>
+```
+
+None
+Use flex-none to prevent a flex item from growing or shrinking:
+
+```html
+<div class="flex ...">
+  <div class="flex-none w-14 h-14 ...">
+    01
+  </div>
+  <div class="flex-none ...">
+    02
+  </div>
+  <div class="flex-1 ...">
+    03
+  </div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="flex-none hover:flex-1">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="flex-none md:flex-1">
+  <!-- ... -->
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="flex-[2_2_0%]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
