@@ -2797,52 +2797,116 @@ Custom Values:
 </details>
 
 <details>
-  <summary>67. sample</summary>
+  <summary>67. Divide Style</summary>
+
+Set the divide style:
 
 ```html
-node -v
+<div class="divide-y divide-dashed">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
 ```
 
+On Hover:
+
 ```html
-node -v
+<div class="divide-y divide-dashed hover:divide-solid">
+  <!-- ... -->
+</div>
 ```
 
-```html
-node -v
-```
-
-</details>
-
-<details>
-  <summary>68. sample</summary>
+On Media queries:
 
 ```html
-node -v
-```
-
-```html
-node -v
-```
-
-```html
-node -v
+<div class="divide-y divide-dashed md:divide-solid">
+  <!-- ... -->
+</div>
 ```
 
 </details>
 
 <details>
-  <summary>69. sample</summary>
+  <summary>68. Outline Width</summary>
+
+Setting the outline width:
 
 ```html
-node -v
+<button class="outline outline-offset-2 outline-1 ...">Button A</button>
+<button class="outline outline-offset-2 outline-2 ...">Button B</button>
+<button class="outline outline-offset-2 outline-4 ...">Button C</button>
+```
+
+On Hover:
+
+```html
+<div class="outline hover:outline-2">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="outline md:outline-2">
+  <!-- ... -->
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="outline-[5px]">
+  <!-- ... -->
+</div>
+```
+
+</details>
+
+<details>
+  <summary>69. Outline Color</summary>
+
+Setting the outline color:
+
+```html
+<button class="outline outline-offset-2 outline-blue-500 ...">Button A</button>
+<button class="outline outline-offset-2 outline-cyan-500 ...">Button B</button>
+<button class="outline outline-offset-2 outline-pink-500 ...">Button C</button>
+```
+
+Changing the opacity:
+
+```html
+<button class="outline-2 outline-blue-500/50 ...">Save Changes</button>
 ```
 
 ```html
-node -v
+<button class="outline-4 outline-pink-400/[.55] ..."></button>
 ```
 
+On Hover:
+
 ```html
-node -v
+<button class="outline hover:outline-blue-400">
+  <!-- ... -->
+</button>
+```
+
+On Media queries:
+
+```html
+<button class="outline md:outline-blue-400">
+  <!-- ... -->
+</button>
+```
+
+Exact Values:
+
+```html
+<button class="outline-[#243c5a]">
+  <!-- ... -->
+</button>
 ```
 
 </details>
