@@ -2912,35 +2912,80 @@ Exact Values:
 </details>
 
 <details>
-  <summary>70. sample</summary>
+  <summary>70. Outline Style</summary>
+
+Setting the outline style:
 
 ```html
-node -v
+<button class="outline outline-2  outline-offset-2 ...">Button A</button>
+<button class="outline-dashed outline-2 outline-offset-2 ...">Button B</button>
+<button class="outline-dotted outline-2 outline-offset-2 ...">Button C</button>
+<button class="outline-double outline-3 outline-offset-2 ...">Button D</button>
 ```
 
-```html
-node -v
-```
+Removing outlines:
 
 ```html
-node -v
+<input type="text"
+  placeholder="Default focus style"
+  class="..." />
+
+<input type="text"
+  placeholder="Custom focus style"
+  class="focus:outline-none focus:ring focus:border-blue-500 ..." />
+```
+
+On Hover:
+
+```html
+<div class="outline hover:outline-dashed">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="outline md:outline-dashed">
+  <!-- ... -->
+</div>
 ```
 
 </details>
 
 <details>
-  <summary>71. sample</summary>
+  <summary>71. Outline Offset</summary>
+
+Setting the outline offset:
 
 ```html
-node -v
+<button class="outline outline-offset-0 ...">Button A</button>
+<button class="outline outline-offset-2 ...">Button B</button>
+<button class="outline outline-offset-4 ...">Button C</button>
 ```
 
-```html
-node -v
-```
+On Hover:
 
 ```html
-node -v
+<button class="outline hover:outline-offset-2">
+  <!-- ... -->
+</button>
+```
+
+On Media queries:
+
+```html
+<button class="outline md:outline-offset-2">
+  <!-- ... -->
+</button>
+```
+
+Exact Values:
+
+```html
+<button class="outline-offset-[3px]">
+  <!-- ... -->
+</button>
 ```
 
 </details>
