@@ -3214,7 +3214,10 @@ module.exports = {
 ```
 
 ```html
-node -v
+<div class="">
+    <a class="text-primary" href="#">Log in</a>
+    <a class="text-secondary-100" href="#">Sign up</a>
+</div>
 ```
 
 </details>
