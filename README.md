@@ -2991,18 +2991,50 @@ Exact Values:
 </details>
 
 <details>
-  <summary>72. sample</summary>
+  <summary>72. Ring Width</summary>
+
+Adding a ring:
 
 ```html
-node -v
+<button class="... ring-offset-2 ring-2">Button A</button>
+<button class="... ring-offset-2 ring">Button B</button>
+<button class="... ring-offset-2 ring-4">Button C</button>
 ```
 
 ```html
-node -v
+<button class="... focus:ring-2">Save Changes</button>
 ```
 
+Inset rings:
+
 ```html
-node -v
+<button class="... ring-2 ring-pink-500 ring-inset">
+  Save Changes
+</button>
+```
+
+On Hover:
+
+```html
+<div class="ring-2 hover:ring-4">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="ring-2 md:ring-4">
+  <!-- ... -->
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="ring-[10px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
