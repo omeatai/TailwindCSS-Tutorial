@@ -2685,35 +2685,113 @@ On Media queries:
 </details>
 
 <details>
-  <summary>65. sample</summary>
+  <summary>65. Divide Width</summary>
+
+Add borders between horizontal children:
 
 ```html
-node -v
+<div class="grid grid-cols-3 divide-x">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
 ```
 
-```html
-node -v
-```
+Add borders between stacked children:
 
 ```html
-node -v
+<div class="grid grid-cols-1 divide-y">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+Reversing children order:
+
+```html
+<div class="flex flex-col-reverse divide-y divide-y-reverse">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="divide-y divide-gray-400 hover:divide-y-8">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="divide-y divide-gray-400 md:divide-y-8">
+  <!-- ... -->
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="divide-x-[3px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
 
 <details>
-  <summary>66. sample</summary>
+  <summary>66. Divide Color</summary>
+
+Setting the divide color:
 
 ```html
-node -v
+<div class="divide-y divide-blue-200">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+Changing the opacity:
+
+```html
+<div class="divide-y-4 divide-slate-400/25 ...">
+  <!-- ... -->
+</div>
 ```
 
 ```html
-node -v
+<div class="divide-y-4 divide-slate-400/[.24] ...">
+  <!-- ... -->
+</div>
 ```
 
+On Hover:
+
 ```html
-node -v
+<div class="divide-y divide-teal-400 hover:divide-pink-400">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="divide-y divide-teal-400 md:divide-pink-400">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+```html
+<div class="divide-[#243c5a]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
