@@ -3318,18 +3318,86 @@ npm run build-css
 ##### [E. FLEXBOX & GRID](#)
 
 <details>
-  <summary>78. sample</summary>
+  <summary>78. Flex Basis</summary>
 
 ```html
-node -v
+Class               Properties
+basis-0	            flex-basis: 0px;
+basis-1	            flex-basis: 0.25rem; /* 4px */
+basis-2	            flex-basis: 0.5rem; /* 8px */
+basis-3	            flex-basis: 0.75rem; /* 12px */
+basis-4	            flex-basis: 1rem; /* 16px */
+basis-5	            flex-basis: 1.25rem; /* 20px */
+.....
+basis-auto	        flex-basis: auto;
+basis-px	        flex-basis: 1px;
+basis-0.5	        flex-basis: 0.125rem; /* 2px */
+basis-1.5	        flex-basis: 0.375rem; /* 6px */
+basis-2.5	        flex-basis: 0.625rem; /* 10px */
+basis-3.5	        flex-basis: 0.875rem; /* 14px */
+basis-1/2	        flex-basis: 50%;
+basis-1/3	        flex-basis: 33.333333%;
+basis-2/3	        flex-basis: 66.666667%;
+basis-1/4	        flex-basis: 25%;
+basis-2/4	        flex-basis: 50%;
+basis-3/4	        flex-basis: 75%;
+basis-1/5	        flex-basis: 20%;
+basis-2/5	        flex-basis: 40%;
+basis-3/5	        flex-basis: 60%;
+basis-4/5	        flex-basis: 80%;
+basis-1/6	        flex-basis: 16.666667%;
+basis-2/6	        flex-basis: 33.333333%;
+basis-3/6	        flex-basis: 50%;
+basis-4/6	        flex-basis: 66.666667%;
+basis-5/6	        flex-basis: 83.333333%;
+basis-1/12	        flex-basis: 8.333333%;
+basis-2/12	        flex-basis: 16.666667%;
+basis-3/12	        flex-basis: 25%;
+basis-4/12	        flex-basis: 33.333333%;
+basis-5/12	        flex-basis: 41.666667%;
+basis-6/12	        flex-basis: 50%;
+basis-7/12	        flex-basis: 58.333333%;
+basis-8/12	        flex-basis: 66.666667%;
+basis-9/12	        flex-basis: 75%;
+basis-10/12	        flex-basis: 83.333333%;
+basis-11/12	        flex-basis: 91.666667%;
+basis-full	        flex-basis: 100%;
 ```
 
-```html
-node -v
-```
+Setting the flex basis:
 
 ```html
-node -v
+<div class="flex flex-row">
+  <div class="basis-1/4">01</div>
+  <div class="basis-1/4">02</div>
+  <div class="basis-1/2">03</div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="basis-1/3 hover:basis-1/2">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="flex flex-row">
+  <div class="basis-1/4 md:basis-1/3">01</div>
+  <div class="basis-1/4 md:basis-1/3">02</div>
+  <div class="basis-1/2 md:basis-1/3">03</div>
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="basis-[14.2857143%]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
