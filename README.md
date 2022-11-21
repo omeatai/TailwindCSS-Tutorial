@@ -3722,18 +3722,70 @@ Exact Values:
 </details>
 
 <details>
-  <summary>83. sample</summary>
+  <summary>83. Flex Shrink</summary>
 
 ```html
-node -v
+Class               Properties
+shrink	            flex-shrink: 1;
+shrink-0	        flex-shrink: 0;
 ```
 
-```html
-node -v
-```
+Shrink
+Use shrink to allow a flex item to shrink if needed:
 
 ```html
-node -v
+<div class="flex ...">
+  <div class="flex-none w-14 h-14 ...">
+    01
+  </div>
+  <div class="shrink w-64 h-14 ...">
+    02
+  </div>
+  <div class="flex-none w-14 h-14 ...">
+    03
+  </div>
+</div>
+```
+
+Don't shrink
+Use shrink-0 to prevent a flex item from shrinking:
+
+```html
+<div class="flex ...">
+  <div class="flex-1 h-16 ...">
+    01
+  </div>
+  <div class="shrink-0 h-16 w-32 ...">
+    02
+  </div>
+  <div class="flex-1 h-16 ...">
+    03
+  </div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="shrink hover:shrink-0">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="shrink md:shrink-0">
+  <!-- ... -->
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="shrink-[2]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
