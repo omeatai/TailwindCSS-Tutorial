@@ -3087,18 +3087,46 @@ Exact Values:
 </details>
 
 <details>
-  <summary>74. sample</summary>
+  <summary>74. Ring Offset Width</summary>
+
+Setting the ring offset width:
 
 ```html
-node -v
+<button class="... ring ring-pink-500 ring-offset-0">Button A</button>
+<button class="... ring ring-pink-500 ring-offset-2">Button B</button>
+<button class="... ring ring-pink-500 ring-offset-4">Button C</button>
 ```
 
-```html
-node -v
-```
+Changing the offset color:
 
 ```html
-node -v
+<button class="ring ring-pink-500 ring-offset-2 ring-offset-slate-50 dark:ring-offset-slate-900 ...">
+  Save Changes
+</button>
+```
+
+On Hover:
+
+```html
+<button class="ring-2 ring-offset-2 hover:ring-offset-4">
+  <!-- ... -->
+</button>
+```
+
+On Media queries:
+
+```html
+<button class="ring-2 ring-offset-2 md:ring-offset-4">
+  <!-- ... -->
+</button>
+```
+
+Exact Values:
+
+```html
+<div class="ring-offset-[3px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
