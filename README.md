@@ -3040,18 +3040,48 @@ Exact Values:
 </details>
 
 <details>
-  <summary>73. sample</summary>
+  <summary>73. Ring Color</summary>
+
+Setting the ring color:
 
 ```html
-node -v
+<button class="... ring-2 ring-blue-500">
+  Create account
+</button>
+```
+
+Changing the opacity:
+
+```html
+<button class="... ring-2 ring-blue-500/50">Subscribe</button>
 ```
 
 ```html
-node -v
+<button class="... ring-2 ring-blue-500/[.55]">Subscribe</button>
 ```
 
+On Hover:
+
 ```html
-node -v
+<div class="ring ring-blue-300 hover:ring-blue-500">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="ring ring-blue-300 md:ring-blue-500">
+  <!-- ... -->
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="ring-[#50d71e]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
