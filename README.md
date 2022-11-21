@@ -3132,18 +3132,48 @@ Exact Values:
 </details>
 
 <details>
-  <summary>75. sample</summary>
+  <summary>75. Ring Offset Color</summary>
+
+Setting the ring offset color:
 
 ```html
-node -v
+<button class="ring-2 ring-purple-500 ring-offset-4 ring-offset-slate-50 dark:ring-offset-slate-900 ...">
+  Save Changes
+</button>
+```
+
+Changing the opacity:
+
+```html
+<button class="ring-2 ring-purple-500 ring-offset-4 ring-offset-purple-100/50"></button>
 ```
 
 ```html
-node -v
+<button class="ring-2 ring-purple-500 ring-offset-4 ring-offset-purple-100/[.55]"></button>
 ```
 
+On Hover:
+
 ```html
-node -v
+<div class="ring-2 ring-offset-2 ring-offset-blue-300 hover:ring-offset-blue-500">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="ring-2 ring-offset-2 ring-offset-blue-300 md:ring-offset-blue-500">
+  <!-- ... -->
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="ring-offset-[#50d71e]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
