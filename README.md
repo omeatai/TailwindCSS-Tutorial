@@ -2641,18 +2641,45 @@ Exact Values:
 </details>
 
 <details>
-  <summary>64. sample</summary>
+  <summary>64. Border Style</summary>
 
 ```html
-node -v
+Class                       Properties
+border-solid	            border-style: solid;
+border-dashed	            border-style: dashed;
+border-dotted	            border-style: dotted;
+border-double	            border-style: double;
+border-hidden	            border-style: hidden;
+border-none	                border-style: none;
 ```
 
 ```html
-node -v
+<div class="border-solid border-2 border-sky-500 ..."></div>
+<div class="border-dashed border-2 border-sky-500 ..."></div>
+<div class="border-dotted border-2 border-sky-500 ..."></div>
+<div class="border-double border-4 border-sky-500 ..."></div>
 ```
 
+No style:
+
 ```html
-node -v
+<button class="border-none ...">Save Changes</button>
+```
+
+On Hover:
+
+```html
+<div class="border-solid hover:border-dotted">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="border-solid md:border-dotted">
+  <!-- ... -->
+</div>
 ```
 
 </details>
