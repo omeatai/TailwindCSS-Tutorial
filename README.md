@@ -3221,10 +3221,14 @@ Install Config file:
 ```bash
 npx tailwindcss init
 npx tailwindcss init --full
+
+npx tailwindcss init tailwindcss-config.js
 ```
 
 ```bash
 npm run build-css
+
+npx tailwindcss -c ./tailwindcss-config.js -i input.css -o output.css
 ```
 
 tailwindcss.config.js:
