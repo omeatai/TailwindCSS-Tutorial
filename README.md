@@ -3264,7 +3264,7 @@ module.exports = {
 </details>
 
 <details>
-  <summary>77. Custom Fonts</summary>
+  <summary>77. Custom Font Family</summary>
 
 ```html
 <body class="text-gray-600 px-4 font-serif">
