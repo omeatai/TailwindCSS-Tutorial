@@ -3791,18 +3791,67 @@ Exact Values:
 </details>
 
 <details>
-  <summary>84. sample</summary>
+  <summary>84. Order</summary>
 
 ```html
-node -v
+Class               Properties
+order-1	            order: 1;
+order-2	            order: 2;
+order-3	            order: 3;
+order-4	            order: 4;
+order-5	            order: 5;
+order-6	            order: 6;
+order-7	            order: 7;
+order-8	            order: 8;
+order-9	            order: 9;
+order-10	        order: 10;
+order-11	        order: 11;
+order-12	        order: 12;
+order-first	        order: -9999;
+order-last	        order: 9999;
+order-none	        order: 0;
 ```
 
-```html
-node -v
-```
+Ordering flex and grid items:
 
 ```html
-node -v
+<div class="flex justify-between ...">
+  <div class="order-last">01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+Using negative values:
+
+```html
+<div class="-order-1">
+  <!-- ... -->
+</div>
+```
+
+On Hover:
+
+```html
+<div class="order-first hover:order-last">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="order-first md:order-last">
+  <!-- ... -->
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="order-[13]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
