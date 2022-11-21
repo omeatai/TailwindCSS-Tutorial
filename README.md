@@ -2570,8 +2570,72 @@ Setting the border color:
 <input class="border-2 border-rose-500 ...">
 ```
 
+Changing the opacity:
+
 ```html
-node -v
+<div class="border-4 border-indigo-500/100 ..."></div>
+<div class="border-4 border-indigo-500/75 ..."></div>
+<div class="border-4 border-indigo-500/50 ..."></div>
+```
+
+```html
+<div class="border-4 border-indigo-600/[.55] ..."></div>
+```
+
+Individual sides:
+
+```html
+<div class="border-4 border-indigo-200 border-t-indigo-500 ..."></div>
+<div class="border-4 border-indigo-200 border-r-indigo-500 ..."></div>
+<div class="border-4 border-indigo-200 border-b-indigo-500 ..."></div>
+<div class="border-4 border-indigo-200 border-l-indigo-500 ..."></div>
+```
+
+Horizontal and vertical sides:
+
+```html
+<div class="border-4 border-indigo-200 border-x-indigo-500 ..."></div>
+<div class="border-4 border-indigo-200 border-y-indigo-500 ..."></div>
+```
+
+On Hover:
+
+```html
+<button class="border border-slate-300 hover:border-slate-400 ...">
+  Send email
+</button>
+```
+
+On Media queries:
+
+```html
+<button class="border-blue-500 md:border-green-500">
+  <!-- ... -->
+</button>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'regal-blue': '#243c5a',
+      },
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<button class="border-[#243c5a]">
+  <!-- ... -->
+</button>
 ```
 
 </details>
