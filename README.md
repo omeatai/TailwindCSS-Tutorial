@@ -3427,35 +3427,120 @@ Exact Values:
 </details>
 
 <details>
-  <summary>79. sample</summary>
+  <summary>79. Flex Direction</summary>
 
 ```html
-node -v
+Class                   Properties
+flex-row	            flex-direction: row;
+flex-row-reverse	    flex-direction: row-reverse;
+flex-col	            flex-direction: column;
+flex-col-reverse	    flex-direction: column-reverse;
 ```
 
 ```html
-node -v
+<div class="flex flex-row ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
 ```
 
 ```html
-node -v
+<div class="flex flex-row-reverse ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+```html
+<div class="flex flex-col ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+```html
+<div class="flex flex-col-reverse ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="flex flex-col hover:flex-row">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="flex flex-col md:flex-row">
+  <!-- ... -->
+</div>
 ```
 
 </details>
 
 <details>
-  <summary>80. sample</summary>
+  <summary>80. Flex Wrap</summary>
 
 ```html
-node -v
+Class                       Properties
+flex-wrap	                flex-wrap: wrap;
+flex-wrap-reverse	        flex-wrap: wrap-reverse;
+flex-nowrap	                flex-wrap: nowrap;
 ```
 
-```html
-node -v
-```
+Don't wrap:
 
 ```html
-node -v
+<div class="flex flex-nowrap">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+Wrap normally:
+
+```html
+<div class="flex flex-wrap">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+Wrap reversed:
+
+```html
+<div class="flex flex-wrap-reverse">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="flex flex-wrap hover:flex-wrap-reverse">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="flex flex-wrap md:flex-wrap-reverse">
+  <!-- ... -->
+</div>
 ```
 
 </details>
