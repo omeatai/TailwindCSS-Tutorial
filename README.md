@@ -3653,18 +3653,70 @@ Exact Values:
 </details>
 
 <details>
-  <summary>82. sample</summary>
+  <summary>82. Flex Grow</summary>
 
 ```html
-node -v
+Class           Properties
+grow	        flex-grow: 1;
+grow-0	        flex-grow: 0;
 ```
 
-```html
-node -v
-```
+Grow
+Use grow to allow a flex item to grow to fill any available space:
 
 ```html
-node -v
+<div class="flex ...">
+  <div class="flex-none w-14 h-14 ...">
+    01
+  </div>
+  <div class="grow h-14 ...">
+    02
+  </div>
+  <div class="flex-none w-14 h-14 ...">
+    03
+  </div>
+</div>
+```
+
+Don't grow
+Use grow-0 to prevent a flex item from growing:
+
+```html
+<div class="flex ...">
+  <div class="grow h-14 ...">
+    01
+  </div>
+  <div class="grow-0 h-14 ...">
+    02
+  </div>
+  <div class="grow h-14 ...">
+    03
+  </div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="grow hover:grow-0">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="grow md:grow-0">
+  <!-- ... -->
+</div>
+```
+
+Exact Values:
+
+```html
+<div class="grow-[2]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
