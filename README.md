@@ -3857,18 +3857,75 @@ Exact Values:
 </details>
 
 <details>
-  <summary>85. sample</summary>
+  <summary>85. Grid Template Columns</summary>
 
 ```html
-node -v
+Class                           Properties
+grid-cols-1	                    grid-template-columns: repeat(1, minmax(0, 1fr));
+grid-cols-2	                    grid-template-columns: repeat(2, minmax(0, 1fr));
+grid-cols-3	                    grid-template-columns: repeat(3, minmax(0, 1fr));
+grid-cols-4	                    grid-template-columns: repeat(4, minmax(0, 1fr));
+grid-cols-5	                    grid-template-columns: repeat(5, minmax(0, 1fr));
+grid-cols-6	                    grid-template-columns: repeat(6, minmax(0, 1fr));
+grid-cols-7	                    grid-template-columns: repeat(7, minmax(0, 1fr));
+grid-cols-8	                    grid-template-columns: repeat(8, minmax(0, 1fr));
+grid-cols-9	                    grid-template-columns: repeat(9, minmax(0, 1fr));
+grid-cols-10	                grid-template-columns: repeat(10, minmax(0, 1fr));
+grid-cols-11	                grid-template-columns: repeat(11, minmax(0, 1fr));
+grid-cols-12	                grid-template-columns: repeat(12, minmax(0, 1fr));
+grid-cols-none	                grid-template-columns: none;
 ```
 
 ```html
-node -v
+<div class="grid grid-cols-4 gap-4">
+  <div>01</div>
+  <!-- ... -->
+  <div>09</div>
+</div>
 ```
 
+On Hover:
+
 ```html
-node -v
+<div class="grid grid-cols-1 hover:grid-cols-6">
+  <!-- ... -->
+</div>
+```
+
+On media queries:
+
+```html
+<div class="grid grid-cols-1 md:grid-cols-6">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        '16': 'repeat(16, minmax(0, 1fr))',
+
+        // Complex site-specific column configuration
+        'footer': '200px minmax(900px, 1fr) 100px',
+      }
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="grid grid-cols-[200px_minmax(900px,_1fr)_100px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
