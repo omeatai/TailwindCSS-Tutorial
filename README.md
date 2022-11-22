@@ -4081,18 +4081,69 @@ Exact Values:
 </details>
 
 <details>
-  <summary>87. sample</summary>
+  <summary>87. Grid Template Rows</summary>
 
 ```html
-node -v
+Class                           Properties
+grid-rows-1	                    grid-template-rows: repeat(1, minmax(0, 1fr));
+grid-rows-2	                    grid-template-rows: repeat(2, minmax(0, 1fr));
+grid-rows-3	                    grid-template-rows: repeat(3, minmax(0, 1fr));
+grid-rows-4	                    grid-template-rows: repeat(4, minmax(0, 1fr));
+grid-rows-5	                    grid-template-rows: repeat(5, minmax(0, 1fr));
+grid-rows-6	                    grid-template-rows: repeat(6, minmax(0, 1fr));
+grid-rows-none	                grid-template-rows: none;
 ```
 
-```html
-node -v
-```
+Specifying the rows in a grid:
 
 ```html
-node -v
+<div class="grid grid-rows-4 grid-flow-col gap-4">
+  <div>01</div>
+  <!-- ... -->
+  <div>09</div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="grid grid-rows-2 hover:grid-rows-6">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="grid grid-rows-2 md:grid-rows-6">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      gridTemplateRows: {
+        // Simple 8 row grid
+        '8': 'repeat(8, minmax(0, 1fr))',
+
+        // Complex site-specific row configuration
+        'layout': '200px minmax(900px, 1fr) 100px',
+      }
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="grid grid-rows-[200px_minmax(900px,_1fr)_100px]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
