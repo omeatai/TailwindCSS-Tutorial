@@ -4149,24 +4149,138 @@ Exact Values:
 </details>
 
 <details>
-  <summary>88. sample</summary>
+  <summary>88. Grid Row Start / End</summary>
 
 ```html
-node -v
+Class                           Properties
+row-auto	                    grid-row: auto;
+row-span-1	                    grid-row: span 1 / span 1;
+row-span-2	                    grid-row: span 2 / span 2;
+row-span-3	                    grid-row: span 3 / span 3;
+row-span-4	                    grid-row: span 4 / span 4;
+row-span-5	                    grid-row: span 5 / span 5;
+row-span-6	                    grid-row: span 6 / span 6;
+row-span-full	                grid-row: 1 / -1;
+row-start-1	                    grid-row-start: 1;
+row-start-2	                    grid-row-start: 2;
+row-start-3	                    grid-row-start: 3;
+row-start-4	                    grid-row-start: 4;
+row-start-5	                    grid-row-start: 5;
+row-start-6	                    grid-row-start: 6;
+row-start-7	                    grid-row-start: 7;
+row-start-auto	                grid-row-start: auto;
+row-end-1	                    grid-row-end: 1;
+row-end-2	                    grid-row-end: 2;
+row-end-3	                    grid-row-end: 3;
+row-end-4	                    grid-row-end: 4;
+row-end-5	                    grid-row-end: 5;
+row-end-6	                    grid-row-end: 6;
+row-end-7	                    grid-row-end: 7;
+row-end-auto	                grid-row-end: auto;
 ```
 
-```html
-node -v
-```
+Spanning rows:
 
 ```html
-node -v
+<div class="grid grid-rows-3 grid-flow-col gap-4">
+  <div class="row-span-3 ...">01</div>
+  <div class="col-span-2 ...">02</div>
+  <div class="row-span-2 col-span-2 ...">03</div>
+</div>
+```
+
+Starting and ending lines:
+
+```html
+<div class="grid grid-rows-3 grid-flow-col gap-4">
+  <div class="row-start-2 row-span-2 ...">01</div>
+  <div class="row-end-3 row-span-2 ...">02</div>
+  <div class="row-start-1 row-end-4 ...">03</div>
+</div>
+```
+
+On Hover:
+
+```html
+<div class="row-span-3 hover:row-span-4">
+  <!-- ... -->
+</div>
+```
+
+On Media queries:
+
+```html
+<div class="row-span-3 md:row-span-4">
+  <!-- ... -->
+</div>
+```
+
+Custom Values:
+
+tailwind.config.js:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      gridRow: {
+        'span-16': 'span 16 / span 16',
+      }
+    }
+  }
+}
+```
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      gridRowStart: {
+        '8': '8',
+        '9': '9',
+        '10': '10',
+        '11': '11',
+        '12': '12',
+        '13': '13',
+      }
+    }
+  }
+}
+```
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      gridRowEnd: {
+        '8': '8',
+        '9': '9',
+        '10': '10',
+        '11': '11',
+        '12': '12',
+        '13': '13',
+      }
+    }
+  }
+}
+```
+
+Exact Values:
+
+```html
+<div class="row-[span_16_/_span_16]">
+  <!-- ... -->
+</div>
 ```
 
 </details>
 
 <details>
   <summary>89. sample</summary>
+
+```html
+node -v
+```
 
 ```html
 node -v
