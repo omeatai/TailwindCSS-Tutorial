@@ -3935,6 +3935,7 @@ Exact Values:
 
 ```html
 Class                           Properties
+
 col-auto	                    grid-column: auto;
 col-span-1	                    grid-column: span 1 / span 1;
 col-span-2	                    grid-column: span 2 / span 2;
@@ -4085,6 +4086,7 @@ Exact Values:
 
 ```html
 Class                           Properties
+
 grid-rows-1	                    grid-template-rows: repeat(1, minmax(0, 1fr));
 grid-rows-2	                    grid-template-rows: repeat(2, minmax(0, 1fr));
 grid-rows-3	                    grid-template-rows: repeat(3, minmax(0, 1fr));
@@ -4153,6 +4155,7 @@ Exact Values:
 
 ```html
 Class                           Properties
+
 row-auto	                    grid-row: auto;
 row-span-1	                    grid-row: span 1 / span 1;
 row-span-2	                    grid-row: span 2 / span 2;
